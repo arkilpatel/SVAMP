@@ -5,35 +5,30 @@
 
 <p align="center">
   <a href="https://2021.naacl.org/"><img src="https://img.shields.io/badge/NAACL-2021-blue"></a>
-  <a href="https://arxiv.org/abs/2006.09286"><img src="http://img.shields.io/badge/Paper-PDF-red.svg"></a>
+  <a href="https://arxiv.org/abs/2103.07191"><img src="http://img.shields.io/badge/Paper-PDF-red.svg"></a>
   <a href="https://github.com/arkilpatel/SVAMP/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-green">
   </a>
 </p>
 
-
-
-Transformers are being used extensively across several sequence modeling tasks. Significant research effort has been devoted to experimentally probe the inner workings of Transformers. However, our conceptual and theoretical understanding of their power and inherent limitations is still nascent. In our paper, we analyze the computational power as captured by Turing-completeness. 
+The task of solving Math Word Problems (MWPs) has received significant research attention in the past years. An MWP consists of a short Natural Language narrative that describes a state of the world and poses a question about some unknown quantities (see Table 1 for examples).
 
 <h2 align="center">
-  <img align="center"  src="./images/trans-maskx.png" alt="..." width="350">
+  <img align="center"  src="./images/Table1.png" alt="..." width="350">
 </h2>
+<p style="text-align: justify;">
+In this work, we show deficiencies in two benchmark datasets - <a href="https://github.com/chaochun/nlu-asdiv-dataset">ASDiv-A</a> and <a href="https://github.com/sroy9/mawps">MAWPS</a>. We first show that existing models achieve reasonably high accuracies on these datasets even after removing the "question" part of the MWP at test time. We further show that a simple model without any word-order information can also solve a majority of MWPs in these datasets. These experiments concretely show that existing models rely on shallow heuristics in benchmark MWP datasets for achieving high performance.
+</p>
 
-We first provide an alternate and simpler proof to show that vanilla Transformers are Turing-complete given arbitrary precision. More importantly, we prove that Transformers with positional masking and without positional encoding are also Turing-complete. Previous empirical works on Machine Transation have found that Transformers with only positional masking achieve comparable performance compared to the ones with positional encodings. Our proof for directional transformers implies that there is no loss of order information if positional information is only provided in the form of masking. The computational equivalence of encoding and masking given by our results implies that any differences in their performance must come from differences in learning dynamics. 
-
-
-
-<h2 align="center">
-  <img align="center"  src="./images/transx.png" alt="..." width="300">
-</h2>
-We analyze the necessity of various components such as self-attention blocks, residual connections and feedforward networks for Turing-completeness. Interestingly, we find that a particular type of residual connection is necessary. Figure 2 provides an overview. We explore implications of our results on machine translation and synthetic tasks.
-
+<p style="text-align: justify;">
+Our experiments render the benchmark datasets unreliable to measure model performance. To enable more robust evaluation of automatic MWP solvers, we created a challenge set called "SVAMP". The examples in SVAMP test a model across different aspects of solving MWPs. Table 1 provides three examples from SVAMP that test whether a model is Question-sensitive, has robust reasoning ability or is invariant to structural alterations respectively.
+</p>
 
 
 #### Dependencies
 
 - compatible with python 3.6
-- dependencies can be installed using `requirements.txt`
+- dependencies can be installed using `SVAMP/code/requirements.txt`
 
 #### Setup
 
@@ -52,7 +47,7 @@ $ source venv/bin/activate
 
 Install all the required packages:
 
-at `SAN:`
+at `SVAMP/code:`
 
 ```shell
 $ pip install -r requirements.txt
@@ -60,113 +55,86 @@ $ pip install -r requirements.txt
 
 To create the relevant directories, run the following command in the corresponding directory of that model:
 
-for eg, at `SAN/Transformer:`
+for eg, at `SVAMP/code/graph2tree:`
 
 ```shell
 $ sh setup.sh
 ```
 
+Then transfer all the data folders to the data subdirectory of that model. For example, copy the MAWPS data directory i.e. `mawps_cv` from `SVAMP/data` to `SVAMP/code/graph2tree/data/`.
+
 #### Models
 
-The current repository includes 2 implementations of Transformer Models:
+The current repository includes 5 implementations of Models:
 
-- `Transformer`
-  - Vanilla Transformer with options to remove residual connections
-- `DiSAN`
-  - Directional Self-Attention Network
+- RNN Seq2Seq at `SVAMP/code/rnn_seq2seq`
+  - Basic Encoder-Decoder with Attention Network. Choice of RNN unit provided among LSTM, GRU or RNN.
+- Transformer Seq2Seq at `SVAMP/code/transformer_seq2seq`
+  - Basic Transformer Network.
+- GTS at `SVAMP/code/gts`
+  - RNN Encoder with Tree-based Decoder ([Original Implementation](https://github.com/ShichaoSun/math_seq2tree)).
+- Graph2Tree at `graph2tree`
+  - Graph-based Encoder with Tree-based Decoder ([Original Implementation](https://github.com/2003pro/Graph2Tree)).
+- Constrained Model at `constrained`
+  - Constrained model as described in the paper. Feed-Forward Network maps input embeddings to hidden representations and LSTM Decoder with attention generates the equation.
 
 #### Datasets
 
 We work with the following datasets:
 
-- `Copy_n` (Used for Copy Task)
-
-  - Sentences  of lengths between n and n+5 are sampled from Penn Tree Bank Corpus for both train and test data.
-  - `Train Data Size:` 43,199 sentences
-  - `Validation Data Size:` 1000 sentences
-
-- `count_data`
-
-  - Numbers between 1-100 are mapped to the corresponding next five consecutive numbers.
-  - Source input consists of a single number between 1-100 in the form a string.
-  - Target output consists of a space separated string with a sequence of 5 numbers. 
-  - `Train Data Size:` 1000
-  - `Validation Data Size:` 100
-
+- `mawps`
+  - [Paper](https://www.aclweb.org/anthology/N16-1136.pdf) and [Github](https://github.com/sroy9/mawps).
+  - `Data Size:` 2373 MWPs.
+  - Evaluated by Cross-Validation over 5 splits.
   
+- `asdiv-a`
+  - [Paper](https://www.aclweb.org/anthology/2020.acl-main.92.pdf) and [Github](https://github.com/chaochun/nlu-asdiv-dataset).
+  - `Data Size:` 1218
+  - Evaluated by Cross-Validation over 5 splits.
+  
+- `svamp`
+  - `Data Size:` 1000
+  - Complete challenge set to be used for evaluation.
+
+A description of the individual data files in the `SVAMP\data` directory is given below:
+
+- `SVAMP\data\cv_asdiv-a`
+  - 5-fold Cross Validation splits of ASDiv-A dataset.
+
+- `SVAMP\data\cv_asdiv-a_without_questions`
+  - 5-fold Cross Validation splits of ASDiv-A dataset with questions removed in the test sets.
+
+- `SVAMP\data\cv_mawps`
+  - 5-fold Cross Validation splits of MAWPS dataset.
+
+- `SVAMP\data\cv_mawps_without_questions`
+  - 5-fold Cross Validation splits of MAWPS dataset with questions removed in the test sets.
+
+- `SVAMP\data\mawps-asdiv-a_svamp`
+  - Train set: Combination of full MAWPS and ASDiv-A. Size: 2373 + 1218.
+  - Test set: SVAMP. Size: 1000.
+
+- `SVAMP\data\mawps-asdiv-a_svamp_without_questions`
+  - Train set: Combination of full MAWPS and ASDiv-A. Size: 2373 + 1218
+  - Test set: SVAMP with questions removed from the MWPs. Size: 1000.
+
+- `SVAMP\data\cv_svamp_augmented`
+  - 5-fold Cross Validation splits of combined MAWPS, ASDiv-A and SVAMP. In each fold, the test set consists of problems from only SVAMP while the train set consists of problems from the rest of SVAMP and complete MAWPS and ASDiv-A.
 
 #### Usage:
 
-The set of command line arguments available can be seen in the respective `args.py` file.
+The set of command line arguments available can be seen in the respective `args.py` file. Here, we illustrate running the experiment for cross validation of the ASDiv-A dataset using the Seq2Seq model. Follow the same methodology for running any experiment over any model.
 
-##### Running Vanilla Transformer on Copy Task
+##### Running Seq2Seq Model for Cross Validation of ASDiv-A
 
-at `./Transformer`:`
+If the folders for the 5 folds are kept as subdirectories inside the directory `../data/cv_asdiv-a:` (for eg, fold0 directory will have `../data/cv_asdiv-a/fold0/train.csv` and `../data/cv_asdiv-a/fold0/dev.csv`),
 
-```
-$	python -m src.main -gpu 0 -max_length 60 -batch_size 128 -epochs 50 -dataset copy_12 -run_name run_copy_task
-```
+then, at `SVAMP/code/rnn_seq2seq:`
 
-##### Running Transformer without Encoder-Decoder Residual Connection on Copy Task
-
-at `./Transformer:`
-
-```
-$	python -m src.main -gpu 0 -max_length 60 -batch_size 128 -epochs 50 -no-enc_dec_res -dataset copy_12 -run_name run_copy_task_wo_e-d-res
-```
-
-##### Running Transformer without Decoder-Decoder Residual Connection on Copy Task
-
-at `./Transformer:`
-
-```
-$	python -m src.main -gpu 0 -max_length 60 -batch_size 128 -epochs 50 -no-dec_dec_res -dataset copy_12 -run_name run_copy_task_wo_d-d-res
-```
-
-##### Running Vanilla Transformer on Counting Task
-
-at `./Transformer:`
-
-```
-$	python -m src.main -gpu 0 -max_length 6 -batch_size 32 -epochs 20 -dataset count_data -run_name run_counting_task
-```
-
-##### Running Transformer without Encoder-Decoder Residual Connection on Counting Task
-
-at `./Transformer:`
-
-```
-$	python -m src.main -gpu 0 -max_length 6 -batch_size 32 -epochs 20 -no-enc_dec_res -dataset count_data -run_name run_counting_task_wo_e-d-res
-```
-
-##### Running Transformer without Decoder-Decoder Residual Connection on Counting Task
-
-at `SAN/Transformer:`
-
-```
-$	python -m src.main -gpu 0 -max_length 6 -batch_size 32 -epochs 20 -no-dec_dec_res -dataset count_data -run_name run_counting_task_wo_d-d-res
-```
-
-##### Running SAN on Extended Copy Task
-
-For example the data used is copy_16_20.
-
-at `./Transformer:`
-
-```
-$	python -m src.main -gpu 0 -dataset copy_16_20 -run_name run_san_copy_16_20
-```
-
-##### Running DiSAN on Extended Copy Task
-
-For example the data used is copy_16_20.
-
-at `./DiSAN:`
-
-```
-$	python -m src.main -gpu 0 -dataset copy_16_20 -run_name run_disan_copy_16_20
+```shell
+$	python -m src.main -mode train -gpu 0 -embedding roberta -emb_name roberta-base -emb1_size 768 -hidden_size 256 -depth 2 -lr 0.0002 -emb_lr 8e-6 -batch_size 4 -epochs 50 -dataset cv_asdiv-a -full_cv -run_name run_cv_asdiv-a
 ```
 
 
 
-For any clarification, comments, or suggestions please contact [Satwik](https://satwikb.com/) or [Arkil](http://arkilpatel.github.io/).
+For any clarification, comments, or suggestions please contact [Arkil](http://arkilpatel.github.io/) or [Satwik](https://satwikb.com/).
