@@ -1,0 +1,3386 @@
+---------------------------------------
+Epoch: 1
+---------------------------------------
+Batch: 1
+---------------------------------------
+Example: 0
+Grade: 1
+Source: millie had number0 bracelets . she lost number1 of them . how many bracelets does millie have left ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 1
+Grade: 3
+Source: her mom also baked some cookies . if she baked number0 pans of cookies and there are number1 cookies per pan how many cookies did her mom bake for her birthday ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 2
+Grade: 2
+Source: at the arcade dave won number0 tickets . if he spent number1 tickets on a beanie and later won number2 more tickets how many would he have ?
+Target: - number0 + number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 3
+Grade: 3
+Source: bridget wants to win the giant stuffed panda bear . she needs a total of number0 points to get it . bridget already scored number1 points at the penny pitch booth . she scored number2 more points on her next try . how many more points does bridget need ?
+Target: - - number0 number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 4
+Grade: 3
+Source: the school is planning a field trip . there are number0 students and number1 seats on each school bus . how many buses are needed to take the trip ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 5
+Grade: 1
+Source: mrs . hilt has number0 friends . she can only take number1 of her friends to the movies . how many friends can t go to the movies ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 6
+Grade: 2
+Source: paul spent number0 . now he has number1 . what s the difference between the number of dollars that he spent and he has now ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 7
+Grade: 3
+Source: john is building a tree house to serve as his hideout whenever he wanted to spend some time alone with himself . the first thing he did is to gather some materials . for the pillars he needs 2 sets of wood with different lengths . if the first set of wood is number1 feet long and the second set is number2 times longer than the first set how long is the second set of wood ?
+Target: * number1 number2
+Generated: number0 number0 number1
+Result: 0
+
+Example: 8
+Grade: 3
+Source: they decided to hold the party in their backyard . if they have number0 sets of tables and each set has number1 chairs how many chairs do they have for the guests ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 9
+Grade: 3
+Source: a chef used number0 potatoes to make fries for the lunch crowd . later he used another number1 potatoes for the dinner crowd . how many potatoes did he use total ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 10
+Grade: 4
+Source: a pet store had number0 snakes . they had the snakes in cages with number1 snakes in each cage . how many cages did the pet store have ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 11
+Grade: 3
+Source: there are number0 rose bushes and 37 oak trees currently in the park . park workers will plant more rose bushes today . when the workers are finished there will be number2 rose bushes in the park . how many rose bushes did the workers plant today ?
+Target: - number2 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 12
+Grade: 2
+Source: a fast food restaurant had number0 hotdogs . after selling some they had number1 left . how many hotdogs did they sell ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 13
+Grade: 3
+Source: will went to the state fair and rode the ferris wheel number0 times . if he rode it number1 times during the day how many times did he ride it at night ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 14
+Grade: 1
+Source: some oranges were in the basket . number0 oranges were taken from the basket . now there are number1 oranges . how many oranges were in the basket before some of the oranges were taken ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 15
+Grade: 3
+Source: edward spent number0 on a board game and then he bought number1 action figures for number2 each . how much money did he spend on the game and figures ?
+Target: + * number1 number2 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 16
+Grade: 4
+Source: dave earned number0 . sara earned number1 . how much more money did dave earn than sara ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 17
+Grade: 1
+Source: a museum had number0 paintings . after they got rid of some they had number1 left . what s the difference between the number of paintings before they got rid of and the left ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 18
+Grade: 4
+Source: a group of number0 friends were playing video games . later number1 more friends came over . how many people were there total ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 19
+Grade: 5
+Source: rick and todd have the same number of candy bars . rick ate number0 candy bars . todd gave away number1 of his candy bars . how many more candy bars did rick have than todd then ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 20
+Grade: 1
+Source: on monday debby jogged number0 kilometers . on tuesday she jogged number1 kilometers and on wednesday she jogged number2 . how many kilometers did she jog total ?
+Target: + + number0 number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 21
+Grade: 1
+Source: number0 apples were in the basket . number1 are red and the rest are green . how many apples are green ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 22
+Grade: 3
+Source: alvin is trying to build a small house in the forest so that he has a place to stay whenever he goes hunting . he started by gathering some wood . according to his blueprint he will need number0 pieces of wood . if his friend gave him number1 pieces and his brother gave him number2 pieces how many more wood does he need to gather ?
+Target: - - number0 number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 23
+Grade: 3
+Source: elizabeth studied number0 minutes for her science test . she studied number1 minutes for her math test . how long did elizabeth study altogether ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 24
+Grade: 1
+Source: janet has number0 oranges and sharon has number1 oranges . how many oranges do janet and sharon have together ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 25
+Grade: 4
+Source: a washing machine can wash number0 pounds of clothes per day . if there are number1 pounds of clothes to be washed per day how many washing machines are needed ?
+Target: / number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 26
+Grade: 4
+Source: a vase can hold number0 flowers . if you had number1 flowers how many vases would you need ?
+Target: / number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 27
+Grade: 4
+Source: emily owned number0 songs by her favorite artists . later on she bought number1 more songs . how many songs did she have totaled ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 28
+Grade: 3
+Source: they also prepared some chips . if he prepared number0 grams of chips and his father prepared number1 grams how much chips should his brother prepare if they are to have number2 grams of chips ?
+Target: - number2 + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 29
+Grade: 3
+Source: after the cleaning the rivers they went on to tidy up the farmlands . if lizzie s group covered number0 square feet of land and the other group covered number1 how many more square feet of land remains to be cleaned if there is total of number2 square feet of land ?
+Target: - number2 + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 30
+Grade: 3
+Source: there were number0 bales of hay in the barn . keith stacked more bales in the barn today . there are now number1 bales of hay in the barn . how many bales did he store in the barn ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 31
+Grade: 3
+Source: mike found number0 seashells on the beach he gave tom some of his seashells . he has number1 seashell left . how many seashells did he give to tom ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+---------------------------------------
+Batch: 2
+---------------------------------------
+Example: 0
+Grade: 1
+Source: jake has number0 fewer peaches than steven . steven has number1 peaches . how many peaches does jake have ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 1
+Grade: 2
+Source: sam was playing basketball with his friend . sam scored number0 points and his friend scored number1 points . how many points did they score total ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 2
+Grade: 3
+Source: will was drawing super heroes on a sheet of scrap paper . he drew number0 heroes on the front and number1 heroes on the back . how many heroes did he draw total ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 3
+Grade: 3
+Source: it takes number0 minutes to bake 1 pan of cookies . how long will it take to bake number2 pans of cookies ?
+Target: * number0 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 4
+Grade: 2
+Source: roden went to a pet shop . he bought number0 gold fish and number1 blue fish . how many fish did he buy ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 5
+Grade: 3
+Source: the 2 groups will also collect garbage from all the number1 houses in the city . if lizzie s group covered number2 houses while the other group covered number3 how many more houses remain ?
+Target: - number1 + number2 number3
+Generated: - number0 number1
+Result: 0
+
+Example: 6
+Grade: 1
+Source: mrs . hilt met number0 friends . number1 of the friends were carrying pears . the rest were carrying oranges . how many friends were carrying oranges ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 7
+Grade: 2
+Source: jovana filled her bucket with number0 pounds of shells . if a friend comes to add number1 pounds of shells and another friend comes to add number2 pounds of shells how many pounds does she have altogether ?
+Target: + + number0 number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 8
+Grade: 1
+Source: cody had a bag of marbles . later he gave number0 to his brother . now cody has number1 marbles . how many marbles did cody have to start with ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 9
+Grade: 3
+Source: kevin and his family just moved to a new neighborhood so they are holding a party to be able to meet their new neighbors . for the party they prepared a few snacks for everyone . if his sister prepared number0 mini cupcakes and his mother prepared number1 how many did his grandmother prepare if they have a total of number2 cupcakes ?
+Target: - number2 + number0 number1
+Generated: number0 number0 number1
+Result: 0
+
+Example: 10
+Grade: 2
+Source: i read number0 pages of my english book yesterday . today i read number1 pages . what is the total number of pages did i read ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 11
+Grade: 2
+Source: olivia gave her cat number0 cheese cubes . now olivia has number1 cheese cubes left . how many cheese cubes did olivia have originally ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 12
+Grade: 1
+Source: there were number0 ducks swimming in the pond . number1 ducks flew away . how many ducks are still swimming in the pond ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 13
+Grade: 2
+Source: maria had number0 pieces of gum . tommy gave her number1 more pieces . luis gave her number2 more pieces . how many pieces of gum does maria have now ?
+Target: + + number0 number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 14
+Grade: 2
+Source: isabella s hair is number0 inches long . if she gets a haircut and now her hair is number1 inches long how much of isabella s hair got cut off ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 15
+Grade: 3
+Source: christian s mother prepared lemonade . every pitcher of lemonade can serve number0 glasses . if she was able to serve number1 glasses of lemonade how many pitchers of lemonade did she prepare ?
+Target: / number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 16
+Grade: 1
+Source: number0 balls were in the basket . some of the balls were removed from the basket . now there are number1 balls . how many balls were removed from the basket ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 17
+Grade: 4
+Source: there are number0 students in a school . if the school has number1 grades and each grade had the same number of students how many students were in each grade ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 18
+Grade: 3
+Source: emily was helping her mom pick apples from the tree in their front yard . together they picked number0 totals . if number1 of the apples weren t ripe yet how many good apples did they pick ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 19
+Grade: 1
+Source: mrs . hilt ran number0 miles on monday number1 miles on wednesday and number2 miles on friday . how many total miles did she run that week ?
+Target: + + number0 number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 20
+Grade: 3
+Source: the razorback t shirt shop makes number0 dollars off each t shirt sold . during the arkansas and texas tech game they sold number1 t shirts . how much money did they make from selling the t shirts ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 21
+Grade: 1
+Source: ellen has number0 more balls than marin . marin has number1 balls . how many balls does ellen have ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 22
+Grade: 4
+Source: dennis has number0 pencils stored in boxes . if the are number1 boxes how many pencils must go in each box ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 23
+Grade: 3
+Source: victor and his friend were buying trick decks from the magic shop for number0 dollars each . how much did they spend if victor bought number1 decks and his friend bought number2 decks ?
+Target: * + number1 number2 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 24
+Grade: 2
+Source: brian has number0 pencils . he gives number1 pencils to a friend . he buys number2 more pencils . how many pencils does brian have now ?
+Target: - number0 + number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 25
+Grade: 4
+Source: haley collected number0 cans for recycling . if she put number1 cans in 1 bag how many cans did she have left ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 26
+Grade: 3
+Source: trevor counted number0 coins in his bank . he counted number1 quarters . the rest are dimes . how many more coints of the total than quarts does trevor have ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 27
+Grade: 3
+Source: they served a total of number0 adults and number1 children if number2 of all the people they served are male how many are female ?
+Target: - + number0 number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 28
+Grade: 4
+Source: janet was practicing for a marathon . she practiced for number0 days running number1 miles each day . how many miles did janet run altogether ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 29
+Grade: 3
+Source: he also made some juice from fresh oranges . if he used number0 oranges per glass of juice and he made number1 glasses of juice how many oranges did he use ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 30
+Grade: 1
+Source: a farmer planted number0 tomato seeds number1 cucumber seeds and number2 pumpkin seeds . how many seeds did he plant all together ?
+Target: + + number0 number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 31
+Grade: 4
+Source: there is a snail problem in centerville . people work together to get rid number0 snails but number1 of them remain . about how many snails were originally in centerville ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+---------------------------------------
+Batch: 3
+---------------------------------------
+Example: 0
+Grade: 1
+Source: you have number0 cookies and you ate number1 of them . how many cookies do you have left ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 1
+Grade: 1
+Source: number0 red apples and number1 green apples are in the basket . how many apples are in the basket ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 2
+Grade: 1
+Source: isabel had number0 bottles of water . after a week she had number1 left . how many did she drink ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 3
+Grade: 3
+Source: christian and his parents went to mt . falton national park for the weekend . they were welcomed warmly by the rangers who invite volunteers and call them earth keepers . the junior ranger asked christian to help him place number0 seedlings in packets . if every packet needs to contain number1 seeds how many packets do they need ?
+Target: / number0 number1
+Generated: number0 number0 number1
+Result: 0
+
+Example: 4
+Grade: 1
+Source: allan brought number0 balloons and jake brought number1 balloons to the park . how many balloons did allan and jake have in the park ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 5
+Grade: 3
+Source: a florist needed to use number0 pounds of fertilizer for number1 days and then on the final day use the normal amount plus another number2 pounds . how many pounds of fertilizer will she use all together ?
+Target: + * number0 number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 6
+Grade: 3
+Source: last thursday drew had number0 . over the weekend he received some money for cutting the grass . he now has number1 . how much money did he get paid for cutting the grass ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 7
+Grade: 1
+Source: mrs . hilt has number0 . she spends number1 on a toy truck and number2 on a pencil case . how much money does she have left ?
+Target: - number0 + number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 8
+Grade: 2
+Source: there were number0 roses in the vase . jessica cut some more roses from her flower garden . there are now number1 roses in the vase . how many roses did she cut ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 9
+Grade: 1
+Source: a furniture store had number0 chairs . after selling some there was number1 left . how many chairs did they sell ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 10
+Grade: 2
+Source: jose has number0 chickens and number1 ducks . how many fowls does he have ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 11
+Grade: 1
+Source: haley had number0 dollars . if she got number1 more dollars in total for doing chores and her birthday what s the difference between the number of dollars before haley got money and she got from events ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 12
+Grade: 4
+Source: an architect was building his 2 story house . on the first floor the house had number1 bedrooms and the second floor had number2 bedrooms . how many bedrooms does the house have totaled ?
+Target: + number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 13
+Grade: 2
+Source: at the arcade dave spent number0 tickets on stuffed tiger . then he had number1 left . how many tickets did dave have to start with ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 14
+Grade: 1
+Source: number0 plums were in the basket . more plums were added to the basket . now there are number1 plums . how many plums were added to the basket ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 15
+Grade: 1
+Source: number0 raccoons are playing in the woods . number1 go home to eat dinner . how many raccoons are left in the woods ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 16
+Grade: 2
+Source: there are number0 dogs number1 fish and number2 cats at my farm . how many pets do i have at my farm ?
+Target: + + number0 number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 17
+Grade: 3
+Source: the book store is very busy today . there are number0 children listening to a story . number1 people are shopping for books . number2 people are at the checkout counter . how many people are at the bookstore ?
+Target: + + number0 number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 18
+Grade: 3
+Source: he wanted to make sure that he is protected from the cold evenings in the forest so he decided to build a fireplace made of cement . if he bought number0 lbs of cement and his son brought another number1 lbs how much cement did he have originally if he now has number2 lbs ?
+Target: - number2 + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 19
+Grade: 3
+Source: during recess buddy went to the cafeteria where he met other students from different grades . if he met number0 second grade students number1 4 grade students and number3 fifth grade students how many more students did buddy meet during recess ?
+Target: + + number0 number1 number3
+Generated: - number0 number1
+Result: 0
+
+Example: 20
+Grade: 2
+Source: blithe has a lot of toys . he lost number0 of them and found number1 in his closet . if he had number2 after that how many toys did blithe have at first ?
+Target: - number2 + number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 21
+Grade: 3
+Source: ned was helping the cafeteria workers pick up lunch trays but he could only carry number0 trays at a time . if he had to pick up number1 trays from 1 table and number3 trays from another how many trips will he make ?
+Target: / + number3 number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 22
+Grade: 3
+Source: after the party kevin estimated that the total money they spent on food drinks and utensils sums up to number0 . if they spent number1 on food and number2 on utensils and other stuff how much did they spend on drinks ?
+Target: - number0 + number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 23
+Grade: 2
+Source: robert wants to practice goal kicks for soccer . he decides to have number0 kicks before going home from the park . he takes number1 kicks before taking a break to get a drink of water . he then takes another number2 kicks . how many more kicks does he need to make before he goes home ?
+Target: - - number0 number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 24
+Grade: 3
+Source: for a potluck lunch bianca brought number0 bottles of soda . if someone else had already brought number1 sodas how many were there total ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 25
+Grade: 4
+Source: an industrial machine made number0 shirts . if it made 1 minute to make number2 shirts how many minutes was it working ?
+Target: / number0 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 26
+Grade: 1
+Source: a pet store had number0 kittens . if they got another number1 kittens how many would they have total ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 27
+Grade: 3
+Source: paul and vinnie deliver newspapers . paul made number0 in tips . vinnie made number1 more than paul . how much did vinnie make ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 28
+Grade: 2
+Source: gwen had number0 ds games . after she gave some to her friends she had number1 left . how many games did she give away ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 29
+Grade: 2
+Source: mrs . hilt bought number0 hot dogs . each hot dog cost number1 cents . how much money did she pay for all of the hot dogs ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 30
+Grade: 3
+Source: angela won a contest . she gets number0 to spend at puzzle palace . she bought many wonderful puzzles . she had number1 left . how much did she spend ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 31
+Grade: 3
+Source: there are number0 fishbowls . each fishbowl has number1 fish . how many fish are there ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+---------------------------------------
+Batch: 4
+---------------------------------------
+Example: 0
+Grade: 1
+Source: a waiter had number0 customers . after some left he still had number1 customers . how many customers left ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 1
+Grade: 1
+Source: number0 red plums and number1 green plums are in the basket . how many plums are in the basket ?
+Target: + number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 2
+Grade: 3
+Source: lastly andrew tried to compute his expenses for the game night . if he spent number0 for each game they played and they played a total of number1 games how much money did he spend that night ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 3
+Grade: 5
+Source: greg and brad started reading their books at the same time . greg read number0 pages a day . brad read number1 pages a day . how many more pages did brad read than greg ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 4
+Grade: 3
+Source: they planned to serve some cold drinks as well . if they plan to make number0 pitchers of drinks and each pitcher can fill number1 glasses how many glasses of drinks are they planning to prepare in total ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 5
+Grade: 5
+Source: there was number0 ml of tea in a pot . anna poured the tea into some cups . if there were number1 ml of tea in each cup how many cups were filled with tea ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 6
+Grade: 2
+Source: at the arcade jerry won number0 tickets playing whack a mole and number1 tickets playing skee ball . if he spent number2 of his tickets on a hat how many tickets does jerry have left ?
+Target: - + number0 number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 7
+Grade: 3
+Source: the book nook sold number0 computer books last week . the sold number1 more cook books than computer books . how many cook books did the book nook sell ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 8
+Grade: 2
+Source: gwen s hair was number0 centimeters long . after a haircut it was number1 centimeters long . how much did she cut off ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 9
+Grade: 1
+Source: sammy has number0 math problems to do for homework . he has already finished number1 of them . how many math problems does sammy have left ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 10
+Grade: 2
+Source: adam had number0 books . if he sold number1 of them and used the money he earned to buy number2 new books how many books would adam have ?
+Target: - number0 + number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 11
+Grade: 3
+Source: your class is having a pizza party . you buy number0 pizzas . each pizza has number1 slices . how many slices is that altogether ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 12
+Grade: 1
+Source: brian has number0 fewer oranges than marcie . marcie has number1 oranges . how many oranges does brian have ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 13
+Grade: 2
+Source: michael has some fish in his fish tank . ben gave him number0 more fish . now he has number1 . how many fish did he have to begin with ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 14
+Grade: 1
+Source: at the fair haley went on number0 rides in the day and number1 at night . how many rides did haley go on total ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 15
+Grade: 2
+Source: kaleb had number0 cherries . after eating some he had number1 left . how many cherries did kaleb eat ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 16
+Grade: 4
+Source: mike has number0 action figures he wants to display . if each shelf in his room can hold number1 figures how many shelves does he need ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 17
+Grade: 4
+Source: cody made number0 dollars mowing lawns over the summer . if he charged number1 bucks for each lawn how many lawns did he mow ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 18
+Grade: 3
+Source: lexie s younger brother helped pick up all the paper clips in lexie s room . he was able to collect number0 paper clips . if he wants to distribute the paper clips in number1 boxes how many paper clips will each box contain ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 19
+Grade: 1
+Source: you have collected number0 crickets . how many more crickets do you need to collect to have number1 crickets ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 20
+Grade: 1
+Source: number0 owls were sitting on the fence . number1 more owls joined them . how many owls are on the fence now ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 21
+Grade: 3
+Source: adam had to wash number0 loads of clothes . by noon he had only washed number1 loads . how many does he still need to wash ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 22
+Grade: 3
+Source: a trivia team had number0 members total but during a game number1 members didn t show up . if each member that did show up scored number2 points how many points were scored total ?
+Target: * - number0 number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 23
+Grade: 1
+Source: mrs . hilt s favorite first grade classes are baking muffins . mrs . brier s class bakes number0 muffins mrs . macadams s class bakes number1 muffins and mrs . flannery s class bakes number2 muffins . how many muffins does first grade bake in all ?
+Target: + + number0 number1 number2
+Generated: number0 number0 number1
+Result: 0
+
+Example: 24
+Grade: 1
+Source: haley grew number0 trees in her backyard . after a typhoon number1 died . how many trees does she have left ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 25
+Grade: 3
+Source: a company invited number0 people to a luncheon but number1 of them didn t show up . if the tables they had held number2 people each how many tables do they need ?
+Target: / - number0 number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 26
+Grade: 1
+Source: jake has number0 fewer balls than audrey . audrey has number1 balls . how many balls does jake have ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 27
+Grade: 3
+Source: christian and the junior ranger brought a bag of number0 nails as they visited every station assigned to the junior ranger . if they left exactly number1 nails in every station they visited how many stations did joline and the junior ranger visit ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 28
+Grade: 1
+Source: number0 toucans are sitting on a tree limb . number1 more toucan joins them . how many toucans in all ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 29
+Grade: 2
+Source: debby received number0 text messages before noon and another number1 after noon . how many text messages did debby receive total ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 30
+Grade: 3
+Source: andrew is having his friends over for game night . so he decided to prepare the snacks and the games . he started by making mini sandwiches . if he has number0 friends coming over and he made number1 sandwiches for each one of them how many sandwiches did he make in total ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 31
+Grade: 2
+Source: number0 boats are in the lake . each boat has number1 people . how many people are on boats in the lake ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+---------------------------------------
+Batch: 5
+---------------------------------------
+Example: 0
+Grade: 2
+Source: lucy went to the grocery store . she bought number0 packs of cookies and number1 packs of noodles . how many packs of groceries did she buy in all ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 1
+Grade: 3
+Source: tom read number0 chapters of a book . if each chapter was number1 pages how many pages did he read ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 2
+Grade: 1
+Source: rachel took number0 dollars from her piggy bank . now she has number1 dollars in her piggy bank . how much money was originally in there ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 3
+Grade: 3
+Source: for halloween isabel received number0 pieces of candy from neighbors and number1 pieces from her older sister . if she only ate number2 pieces a day how long would the candy last her ?
+Target: / + number0 number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 4
+Grade: 2
+Source: in a school there are number0 girls and number1 boys . how many pupils are there in that school ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 5
+Grade: 3
+Source: next food item she has to prepare is soup . she needs number0 cups of mushroom soup . if the first team made number1 cups and the third team made number2 cups how any cups should the second team prepare in order to meet the required amount of soup ?
+Target: - number0 + number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 6
+Grade: 2
+Source: mrs . wong had number0 valentines . she gave number1 valentines to her children . how many does she have left ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 7
+Grade: 4
+Source: zoe s school sold number0 dollars in raffle tickets . if each ticket cost number1 dollars how many tickets did they sell ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 8
+Grade: 3
+Source: annette and caitlin weigh number0 pounds together . caitlin and sara weigh number1 pounds together . how much more does annette weigh than sara ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 9
+Grade: 1
+Source: mary s mom is getting ready for mary s birthday party . she blew up number0 balloons this morning and number1 balloons this afternoon . how many balloons did she blow up in all ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 10
+Grade: 1
+Source: shelby s teacher gives out gold stars for great math work . yesterday shelby earned number0 gold stars . today she earned number1 more . how many gold stars did shelby earn in all ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 11
+Grade: 3
+Source: there are number0 students making number1 stars each for the school wall . how many stars will they make all together ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 12
+Grade: 1
+Source: at mrs . hilt s house there was number0 inches of snow and brecknock elementary school received number1 inches of snow . how much more snow did mrs . hilt s house have ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 13
+Grade: 2
+Source: mrs . hilt has number0 cents . a pencil costs number1 cents . how many pencils can she buy with the money she has ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 14
+Grade: 2
+Source: winnie completed number0 consecutive repetitions for rope jumping yesterday . today she completed only number1 . how many repetitions did she fell behind ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 15
+Grade: 2
+Source: cade had number0 marbles . he gave number1 to dylan . how many does he have left ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 16
+Grade: 1
+Source: number0 beavers were working on their home . number1 went for a swim . how many beavers are still working on their home ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 17
+Grade: 1
+Source: amy had number0 dollars . if she got number1 more dollars for doing chores and number2 more for her birthday how much money does she have now ?
+Target: + + number0 number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 18
+Grade: 3
+Source: a pile of clean white paper was stacked in the corner of her room . she decided to place these papers in paper envelopes which can contain number0 white papers . how many paper envelopes does she need if she has number1 clean white papers ?
+Target: / number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 19
+Grade: 1
+Source: marin has number0 apples and donald has number1 apples . how many apples do marin and donald have together ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 20
+Grade: 1
+Source: there were number0 students riding on the school bus . at the first stop number1 students got off of the bus . how many students are left on the bus ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 21
+Grade: 4
+Source: a chef served 3 different foods for a banquet number1 plates lobster rolls number2 plates of spicy hot noodles and number3 plates of seafood noodles . how many plates of food did the chef make altogether ?
+Target: + + number1 number2 number3
+Generated: - number0 number1
+Result: 0
+
+Example: 22
+Grade: 4
+Source: olivia s dad took her and some friends out to eat for her birthday . if each meal costs number0 dollars and her dad paid for number1 meals how much did he spend ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 23
+Grade: 4
+Source: oliver was yard sale shopping . he ended up buying number0 video games but only number1 of them worked . how many bad games did he buy ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 24
+Grade: 3
+Source: to add support on the house s connections he decided to tie the wood joints with rope . he needs number0 feet of rope . if he has number1 feet of rope with him and at the moment he only needed number2 feet how many feet of rope did his friends give to him ?
+Target: - number0 + number2 number1
+Generated: number0 number0 number1
+Result: 0
+
+Example: 25
+Grade: 3
+Source: matthew and billie went apple picking . matthew found number0 big red apples . billie found some as well . together they found number1 apples . how many apples did billie find ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 26
+Grade: 1
+Source: the litter patrol picked up number0 glass bottles and number1 aluminum cans on saturday . how many pieces of litter did they pick up altogether ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 27
+Grade: 3
+Source: ted and fred measured their height . their total height is number0 inches . ted is number1 inches tall . how tall is fred ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 28
+Grade: 4
+Source: a farmer had number0 seeds to plant . he planted the same number of seeds each day and it took him number1 days to plant them all . how many seeds did he plant per day ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 29
+Grade: 3
+Source: shiela has number0 neighbors who like to collect animal drawings . shiela has a talent for drawing and so she drew number1 animals on small pieces of paper . if she plans to give the same number of animal drawings to her neighbors how many will each of them receive ?
+Target: / number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 30
+Grade: 2
+Source: mrs . hilt bought carnival tickets . the tickets cost 1 for number1 tickets . if mrs . hilt bought number2 tickets how much did she pay ?
+Target: / number2 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 31
+Grade: 2
+Source: kim has number0 cousins . she wants to give each one number1 pieces of gum . how much gum will she need ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+---------------------------------------
+Batch: 6
+---------------------------------------
+Example: 0
+Grade: 2
+Source: mrs . hilt had number0 cents . she bought a pencil for number1 cents and a piece of candy for number2 cents . how much money did she have left ?
+Target: - - number0 number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 1
+Grade: 3
+Source: christian s father and the senior ranger gathered firewood as they walked towards the lake in the park and brought with them sacks . if every sack can contain around number0 pieces of wood how many sacks were they able to fill if they gathered number1 pieces of wood ?
+Target: / number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 2
+Grade: 1
+Source: number0 peaches are in the basket . number1 more peaches are put in the basket . how many peaches are in the basket now ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 3
+Grade: 1
+Source: david has number0 fewer apples than marin . marin has number1 apples . how many apples does david have ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 4
+Grade: 3
+Source: a book has 2 chapters . the first chapter is number1 pages long . the second chapter is number2 pages long . how many pages does the book have altogether ?
+Target: + number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 5
+Grade: 3
+Source: at the end of the party mona gave away some souvenirs to her number0 closest friends . if each of them received number1 souvenir items how many souvenirs did mona give away ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 6
+Grade: 4
+Source: there are number0 skittles in steven s skittle collection . steven also has 11 erasers . if the skittles are organized into number2 groups how big is each group ?
+Target: / number0 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 7
+Grade: 1
+Source: there were number0 kinds of sandwiches on the menu . unfortunately number1 of them had been sold out how many kinds of sandwiches do they actually provide now ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 8
+Grade: 3
+Source: frank had number0 pieces of candy . if he put them into bags with number1 pieces in each bag how many bags would he have ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 9
+Grade: 4
+Source: jerry had number0 action figures on a shelf in his room . later he added number1 more figures to the shelf . how many action figures were on his shelf total ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 10
+Grade: 3
+Source: mikayla has a huge collection of music cds . she gave number0 cds to her friend . now she has number1 cds left . how many cds were in mikayla s collection at first ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 11
+Grade: 4
+Source: oliver won number0 tickets playing games at the arcade . if he spent number1 tickets buying a water gun how many tickets did he still have ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 12
+Grade: 1
+Source: a waiter had number0 customers . after some left he still had number1 customers . what s the difference between the number of customers before leaving and after leaving ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 13
+Grade: 1
+Source: number0 birds were sitting on the fence . number1 more birds came to join them . how many birds are sitting on the fence ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 14
+Grade: 3
+Source: danny collects bottle caps . he found number0 bottle caps at the park . now he has number1 bottle caps in his collection . how many bottle caps did danny have at first ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 15
+Grade: 1
+Source: during a sale a shoe store sold number0 pairs of sneakers number1 pairs of sandals and number2 pairs of boots . how many pairs of shoes did the store sell ?
+Target: + + number0 number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 16
+Grade: 3
+Source: mrs . hilt uses number0 ounces of detergent to wash a pound of clothes . how many ounces of soap will she use to wash number1 pounds of clothes ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 17
+Grade: 3
+Source: tom had number0 and he wanted to buy as many folders as he could . if 1 folder costs number2 how many folders can tom buy ?
+Target: / number0 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 18
+Grade: 3
+Source: for a birthday party cody bought number0 regular sodas and number1 diet sodas . if his fridge would only hold number2 on each shelf how many shelves would he fill up ?
+Target: / + number0 number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 19
+Grade: 1
+Source: mrs . hilt had number0 cents . she bought a pencil for number1 cents . how much money did she have left ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 20
+Grade: 3
+Source: zoe is on vacation . she has already taken number0 pictures . she has enough film left to take 32 more pictures . zoe took number2 more pictures at the dolphin show . how many pictures has zoe taken altogether ?
+Target: + number0 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 21
+Grade: 3
+Source: shiela has started writing a list of gifts that she plans to give to her family and friends this christmas . for her classmates she made colorful paper stars which will be placed in small clear bottles . she was able to prepare number0 paper stars . how many stars will be placed in each bottle if shiela has number1 classmates ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 22
+Grade: 1
+Source: mrs . hilt picked up a book that has number0 pages in it . she read number1 of the pages . how many pages did she have left to read ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 23
+Grade: 2
+Source: isabella s hair is number0 inches long . by the end of the year her hair is number1 inches long . how much hair did she grow ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 24
+Grade: 3
+Source: for the second main course they were asked to make number0 pieces of fish fillets . if the first team made number1 pieces and the second team made number2 pieces how many pieces should the third team make ?
+Target: - number0 + number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 25
+Grade: 2
+Source: a bee has number0 legs . how many legs do number1 bees have ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 26
+Grade: 2
+Source: karen has number0 markers . her mother gives her number1 more markers . karen loses number2 markers . how many markers does she have now ?
+Target: - + number0 number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 27
+Grade: 3
+Source: having this kind of collection made jack a fast reader . if he can read number0 books in a day how many books can he read in a year a year number1 days ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 28
+Grade: 3
+Source: lexie has a lot of art materials . she needs to organize all these materials into containers . she counted her crayons and found out that she has number0 crayons which she will place in crayon boxes . every crayon box can contain number1 crayons . how many crayon boxes does she need ?
+Target: / number0 number1
+Generated: number0 number0 number1
+Result: 0
+
+Example: 29
+Grade: 1
+Source: sandra took number0 cups of coffee and marcie took number1 cups of coffee . how many cups of coffee did sandra and marcie take in total ?
+Target: + number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 30
+Grade: 3
+Source: mrs . smith gave number0 strawberries to number1 girls equally . how many strawberries did each girl get ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 31
+Grade: 1
+Source: mrs . hilt made 5 rice krispie treats . she used number1 large marshmallows and number2 mini marshmallows . how many marshmallows did she use altogether ?
+Target: + number1 number2
+Generated: - number0 number1
+Result: 0
+
+---------------------------------------
+Batch: 7
+---------------------------------------
+Example: 0
+Grade: 3
+Source: finally they had to roam around number0 factories to make sure they are throwing their wastes properly . if their group went to number1 factories and the second went to number2 how many factories remain unchecked ?
+Target: - number0 + number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 1
+Grade: 3
+Source: brian ran around the school track in number0 seconds . todd ran around it in number1 seconds . how many fewer seconds did it take todd to run around the tracl ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 2
+Grade: 3
+Source: another material that he needs is rope . if he already has number0 feet of rope and he needs additional ropes having number1 times the length of what he already have how long should be the additional rope ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 3
+Grade: 3
+Source: frankie and max went trick or treating . frankie got number0 pieces of candy . max got number1 pieces of candy . how many more pieces of candy did max get ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 4
+Grade: 3
+Source: a lawn care company bought number0 lawnmower blade for number1 each . they also bought a spool of weed eater string for number2 . how much money did they spend on supplies ?
+Target: + * number0 number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 5
+Grade: 3
+Source: sunday morning was spent for making wood carvings which can be sold as souvenir for tourists . they were placed in shelves that can contain number0 wood carvings at a time . if number1 wood carvings were displayed how many shelves were filled with carvings ?
+Target: / number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 6
+Grade: 1
+Source: number0 birds are sitting on a branch . number1 flies away . how many birds are left on the branch ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 7
+Grade: 1
+Source: mrs . hilt bought a yoyo for number0 cents and a whistle for number1 cents . how much did she spend in all for the 2 toys ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 8
+Grade: 3
+Source: mike played number0 games of basketball with his friends . if mike scored number1 points each game how many points did he score total ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 9
+Grade: 2
+Source: there were number0 people in line at lunch when number1 more got in line . how many people were there total in line ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 10
+Grade: 3
+Source: he also needed some nails . if he already has number0 nails with him and he found another number1 in his toolshed how many more nails does he need to buy if he needs a total of number2 nails ?
+Target: - number2 + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 11
+Grade: 4
+Source: for a potluck lunch debby brought number0 bottles of soda . if everyone only drank number1 of the sodas how many did she have to take back home ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 12
+Grade: 3
+Source: there are number0 students in mrs . riley s class but she only has number1 pencils . how many more pencils does mrs . riley need ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 13
+Grade: 4
+Source: katie had number0 math problems for homework . if she finished number1 of them on the bus ride home how many more did she have to do ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 14
+Grade: 1
+Source: brian has number0 more plums than paul . paul has number1 plums . how many plums does brian have ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 15
+Grade: 3
+Source: nancy had number0 files on her computer . she deleted number1 of them and put the rest into folders with number2 files in each one . how many folders did nancy end up with ?
+Target: / - number0 number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 16
+Grade: 1
+Source: debby had number0 pieces of candy . after eating some she had number1 pieces . how many pieces did debby eat ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 17
+Grade: 2
+Source: mrs . sheridan has number0 cats . how many more cats does mrs . sheridan need to have number1 cats ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 18
+Grade: 3
+Source: janine owns a catering service company . she was hired to cater for the mayor s 50th birthday . for the appetizers she needs to make number1 mini meat pies . she divided her crew into 3 teams . if the first team made number3 and the second made number4 how many pies should the third team make ?
+Target: - number1 + number3 number4
+Generated: number0 number0 number1
+Result: 0
+
+Example: 19
+Grade: 3
+Source: wendy was playing a video game where she scores number0 points for each treasure she finds . if she found number1 treasures on the first level and number2 on the second what would her score be ?
+Target: * + number1 number2 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 20
+Grade: 2
+Source: there are some children at a bakery . as they were deciding what to buy number0 girls came in and number1 boys left . if there are number2 children in the bakery in the end how many children were there at first ?
+Target: - + number2 number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 21
+Grade: 2
+Source: a quarter equals number0 . how many quarters equal number1 ?
+Target: / number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 22
+Grade: 1
+Source: number0 red peaches and number1 green peaches are in the basket . how many peaches are in the basket ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 23
+Grade: 3
+Source: jerry is helping to put away books . if he has number0 books to put away and each shelf can hold number1 books how many shelves will he need ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 24
+Grade: 2
+Source: for halloween debby and her sister combined the candy they received . debby had number0 pieces of candy while her sister had number1 . if they ate number2 pieces the first night how many pieces do they have left ?
+Target: - + number0 number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 25
+Grade: 2
+Source: hayley had number0 meatballs on her plate . kirsten stole some of her meatballs . now she has number1 meatballs on her plate . how many meatballs did kirsten steal ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 26
+Grade: 3
+Source: beside the pile of clean white paper was a stack of number0 sheets of used paper . she wants to place it in boxes for recycling . if every box can contain number1 sheets how many boxes does she need ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 27
+Grade: 3
+Source: 1 zoo guide spoke to a group of number1 children . another guide spoke to a group of number2 children . there are 22 guides at the zoo . how many children did the zoo guides speak to ?
+Target: + number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 28
+Grade: 3
+Source: there were number0 book shelves . each book shelf had number1 books . how many books were on the shelves ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 29
+Grade: 3
+Source: each bag contains number0 pounds of oranges . how many pounds of oranges are in number1 bags ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 30
+Grade: 4
+Source: a school ordered number0 new pencils for the state tests . if they gave each student number1 pencils how many students are in the school ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 31
+Grade: 2
+Source: the hawks scored number0 touchdowns worth number1 points each . how many points do they have ?
+Target: * number1 number0
+Generated: - number0 number1
+Result: 0
+
+---------------------------------------
+Batch: 8
+---------------------------------------
+Example: 0
+Grade: 3
+Source: for the walls of the house he would use number0 large planks of wood . if each plank of wood needs number1 pieces of nails to be secured how many nails does john need for the house wall ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 1
+Grade: 2
+Source: jovana had number0 pounds of shells in her bucket . she added some shells and now has number1 pounds of shells . how many pounds did she add ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 2
+Grade: 1
+Source: adam has number0 more apples than jackie . jackie has number1 apples . how many apples does adam have ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 3
+Grade: 2
+Source: linda has number0 candies . chloe has number1 . how many candies do they have in all ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 4
+Grade: 2
+Source: cindy had number0 pieces of candy . she ate number1 pieces in the morning and number2 more pieces in the afternoon . how many pieces of candy does she have left ?
+Target: - - number0 number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 5
+Grade: 1
+Source: the book fair sold number0 posters . now they have number1 posters left . how many posters did they have to begin with ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 6
+Grade: 3
+Source: for the fifth grade play the chairs have been put into number0 rows with number1 chairs in each row . how many chairs have been put out for the play ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 7
+Grade: 4
+Source: rachel had to complete number0 pages of math homework and number1 pages of reading homework . how many pages did she have to complete total ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 8
+Grade: 2
+Source: cindy has number0 stickers . she uses number1 stickers . she buys number2 more stickers . how many stickers does cindy have now ?
+Target: - number0 + number1 number2
+Generated: - number0 number1
+Result: 0
+
+Example: 9
+Grade: 2
+Source: mrs . franklin had number0 valentines . mrs . franklin gave some to her students . now she has number1 . how many valentines did mrs . franklin give to her students ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 10
+Grade: 3
+Source: robin has number0 packages of gum . there are number1 pieces in each package . how many pieces of gum does robin have ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 11
+Grade: 3
+Source: a group of number0 friends went into a restaurant . the chef already had number1 chicken wings cooked but cooked number2 more for the group . if they each got the same amount how many would each person get ?
+Target: / + number1 number2 number0
+Generated: number0 number0 number1
+Result: 0
+
+Example: 12
+Grade: 2
+Source: isha s pencil is number0 inches long . if she sharpens it now her pencil is number1 inches long . how much did she sharpen off of her pencil ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 13
+Grade: 3
+Source: kaleb bought number0 boxes of chocolate candy and gave number1 to his little brother . if each box has number2 pieces inside it how many pieces did kaleb still have ?
+Target: * - number0 number1 number2
+Generated: - number0 number1
+Result: 0
+
+---------------------------------------
+---------------------------------------
+Epoch: 2
+---------------------------------------
+Batch: 1
+---------------------------------------
+Example: 0
+Grade: 3
+Source: a pile of clean white paper was stacked in the corner of her room . she decided to place these papers in paper envelopes which can contain number0 white papers . how many paper envelopes does she need if she has number1 clean white papers ?
+Target: / number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 1
+Grade: 1
+Source: isabel had number0 bottles of water . after a week she had number1 left . how many did she drink ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 2
+Grade: 4
+Source: olivia s dad took her and some friends out to eat for her birthday . if each meal costs number0 dollars and her dad paid for number1 meals how much did he spend ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 3
+Grade: 1
+Source: you have number0 cookies and you ate number1 of them . how many cookies do you have left ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 4
+Grade: 2
+Source: there are number0 dogs number1 fish and number2 cats at my farm . how many pets do i have at my farm ?
+Target: + + number0 number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 5
+Grade: 3
+Source: kaleb bought number0 boxes of chocolate candy and gave number1 to his little brother . if each box has number2 pieces inside it how many pieces did kaleb still have ?
+Target: * - number0 number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 6
+Grade: 4
+Source: for a potluck lunch debby brought number0 bottles of soda . if everyone only drank number1 of the sodas how many did she have to take back home ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 7
+Grade: 1
+Source: you have collected number0 crickets . how many more crickets do you need to collect to have number1 crickets ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 8
+Grade: 1
+Source: number0 raccoons are playing in the woods . number1 go home to eat dinner . how many raccoons are left in the woods ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 9
+Grade: 4
+Source: katie had number0 math problems for homework . if she finished number1 of them on the bus ride home how many more did she have to do ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 10
+Grade: 3
+Source: they planned to serve some cold drinks as well . if they plan to make number0 pitchers of drinks and each pitcher can fill number1 glasses how many glasses of drinks are they planning to prepare in total ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 11
+Grade: 4
+Source: cody made number0 dollars mowing lawns over the summer . if he charged number1 bucks for each lawn how many lawns did he mow ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 12
+Grade: 2
+Source: sam was playing basketball with his friend . sam scored number0 points and his friend scored number1 points . how many points did they score total ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 13
+Grade: 3
+Source: nancy had number0 files on her computer . she deleted number1 of them and put the rest into folders with number2 files in each one . how many folders did nancy end up with ?
+Target: / - number0 number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 14
+Grade: 4
+Source: oliver was yard sale shopping . he ended up buying number0 video games but only number1 of them worked . how many bad games did he buy ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 15
+Grade: 2
+Source: blithe has a lot of toys . he lost number0 of them and found number1 in his closet . if he had number2 after that how many toys did blithe have at first ?
+Target: - number2 + number1 number0
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 16
+Grade: 1
+Source: mrs . hilt had number0 cents . she bought a pencil for number1 cents . how much money did she have left ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 17
+Grade: 3
+Source: wendy was playing a video game where she scores number0 points for each treasure she finds . if she found number1 treasures on the first level and number2 on the second what would her score be ?
+Target: * + number1 number2 number0
+Generated: - number0 number0 number1 number2
+Result: 0
+
+Example: 18
+Grade: 1
+Source: at mrs . hilt s house there was number0 inches of snow and brecknock elementary school received number1 inches of snow . how much more snow did mrs . hilt s house have ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 19
+Grade: 4
+Source: a vase can hold number0 flowers . if you had number1 flowers how many vases would you need ?
+Target: / number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 20
+Grade: 3
+Source: her mom also baked some cookies . if she baked number0 pans of cookies and there are number1 cookies per pan how many cookies did her mom bake for her birthday ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 21
+Grade: 1
+Source: cody had a bag of marbles . later he gave number0 to his brother . now cody has number1 marbles . how many marbles did cody have to start with ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 22
+Grade: 1
+Source: number0 toucans are sitting on a tree limb . number1 more toucan joins them . how many toucans in all ?
+Target: + number0 number1
+Generated: - number0 number0
+Result: 0
+
+Example: 23
+Grade: 3
+Source: for the second main course they were asked to make number0 pieces of fish fillets . if the first team made number1 pieces and the second team made number2 pieces how many pieces should the third team make ?
+Target: - number0 + number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 24
+Grade: 1
+Source: haley grew number0 trees in her backyard . after a typhoon number1 died . how many trees does she have left ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 25
+Grade: 2
+Source: adam had number0 books . if he sold number1 of them and used the money he earned to buy number2 new books how many books would adam have ?
+Target: - number0 + number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 26
+Grade: 3
+Source: mrs . hilt uses number0 ounces of detergent to wash a pound of clothes . how many ounces of soap will she use to wash number1 pounds of clothes ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 27
+Grade: 1
+Source: haley had number0 dollars . if she got number1 more dollars in total for doing chores and her birthday what s the difference between the number of dollars before haley got money and she got from events ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 28
+Grade: 3
+Source: a group of number0 friends went into a restaurant . the chef already had number1 chicken wings cooked but cooked number2 more for the group . if they each got the same amount how many would each person get ?
+Target: / + number1 number2 number0
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 29
+Grade: 3
+Source: a book has 2 chapters . the first chapter is number1 pages long . the second chapter is number2 pages long . how many pages does the book have altogether ?
+Target: + number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 30
+Grade: 3
+Source: beside the pile of clean white paper was a stack of number0 sheets of used paper . she wants to place it in boxes for recycling . if every box can contain number1 sheets how many boxes does she need ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 31
+Grade: 1
+Source: janet has number0 oranges and sharon has number1 oranges . how many oranges do janet and sharon have together ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+---------------------------------------
+Batch: 2
+---------------------------------------
+Example: 0
+Grade: 2
+Source: mrs . franklin had number0 valentines . mrs . franklin gave some to her students . now she has number1 . how many valentines did mrs . franklin give to her students ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 1
+Grade: 1
+Source: mrs . hilt met number0 friends . number1 of the friends were carrying pears . the rest were carrying oranges . how many friends were carrying oranges ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 2
+Grade: 3
+Source: robin has number0 packages of gum . there are number1 pieces in each package . how many pieces of gum does robin have ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 3
+Grade: 1
+Source: shelby s teacher gives out gold stars for great math work . yesterday shelby earned number0 gold stars . today she earned number1 more . how many gold stars did shelby earn in all ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 4
+Grade: 2
+Source: isabella s hair is number0 inches long . by the end of the year her hair is number1 inches long . how much hair did she grow ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 5
+Grade: 2
+Source: maria had number0 pieces of gum . tommy gave her number1 more pieces . luis gave her number2 more pieces . how many pieces of gum does maria have now ?
+Target: + + number0 number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 6
+Grade: 4
+Source: dennis has number0 pencils stored in boxes . if the are number1 boxes how many pencils must go in each box ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 7
+Grade: 3
+Source: shiela has number0 neighbors who like to collect animal drawings . shiela has a talent for drawing and so she drew number1 animals on small pieces of paper . if she plans to give the same number of animal drawings to her neighbors how many will each of them receive ?
+Target: / number1 number0
+Generated: - number0 number0
+Result: 0
+
+Example: 8
+Grade: 3
+Source: jerry is helping to put away books . if he has number0 books to put away and each shelf can hold number1 books how many shelves will he need ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 9
+Grade: 4
+Source: there are number0 skittles in steven s skittle collection . steven also has 11 erasers . if the skittles are organized into number2 groups how big is each group ?
+Target: / number0 number2
+Generated: - number0 number0 number1
+Result: 0
+
+Example: 10
+Grade: 3
+Source: during recess buddy went to the cafeteria where he met other students from different grades . if he met number0 second grade students number1 4 grade students and number3 fifth grade students how many more students did buddy meet during recess ?
+Target: + + number0 number1 number3
+Generated: - number0 number0 number1
+Result: 0
+
+Example: 11
+Grade: 2
+Source: there are some children at a bakery . as they were deciding what to buy number0 girls came in and number1 boys left . if there are number2 children in the bakery in the end how many children were there at first ?
+Target: - + number2 number1 number0
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 12
+Grade: 2
+Source: mrs . hilt had number0 cents . she bought a pencil for number1 cents and a piece of candy for number2 cents . how much money did she have left ?
+Target: - - number0 number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 13
+Grade: 3
+Source: john is building a tree house to serve as his hideout whenever he wanted to spend some time alone with himself . the first thing he did is to gather some materials . for the pillars he needs 2 sets of wood with different lengths . if the first set of wood is number1 feet long and the second set is number2 times longer than the first set how long is the second set of wood ?
+Target: * number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 14
+Grade: 1
+Source: the book fair sold number0 posters . now they have number1 posters left . how many posters did they have to begin with ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 15
+Grade: 2
+Source: karen has number0 markers . her mother gives her number1 more markers . karen loses number2 markers . how many markers does she have now ?
+Target: - + number0 number1 number2
+Generated: - number0 number0 number1 number2
+Result: 0
+
+Example: 16
+Grade: 1
+Source: the litter patrol picked up number0 glass bottles and number1 aluminum cans on saturday . how many pieces of litter did they pick up altogether ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 17
+Grade: 1
+Source: number0 owls were sitting on the fence . number1 more owls joined them . how many owls are on the fence now ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 18
+Grade: 3
+Source: mike played number0 games of basketball with his friends . if mike scored number1 points each game how many points did he score total ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 19
+Grade: 2
+Source: mrs . wong had number0 valentines . she gave number1 valentines to her children . how many does she have left ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 20
+Grade: 3
+Source: for the fifth grade play the chairs have been put into number0 rows with number1 chairs in each row . how many chairs have been put out for the play ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 21
+Grade: 3
+Source: a florist needed to use number0 pounds of fertilizer for number1 days and then on the final day use the normal amount plus another number2 pounds . how many pounds of fertilizer will she use all together ?
+Target: + * number0 number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 22
+Grade: 4
+Source: haley collected number0 cans for recycling . if she put number1 cans in 1 bag how many cans did she have left ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 23
+Grade: 2
+Source: paul spent number0 . now he has number1 . what s the difference between the number of dollars that he spent and he has now ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 24
+Grade: 1
+Source: number0 red peaches and number1 green peaches are in the basket . how many peaches are in the basket ?
+Target: + number0 number1
+Generated: - number0 number0
+Result: 0
+
+Example: 25
+Grade: 2
+Source: michael has some fish in his fish tank . ben gave him number0 more fish . now he has number1 . how many fish did he have to begin with ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 26
+Grade: 1
+Source: on monday debby jogged number0 kilometers . on tuesday she jogged number1 kilometers and on wednesday she jogged number2 . how many kilometers did she jog total ?
+Target: + + number0 number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 27
+Grade: 2
+Source: a quarter equals number0 . how many quarters equal number1 ?
+Target: / number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 28
+Grade: 1
+Source: mrs . hilt has number0 friends . she can only take number1 of her friends to the movies . how many friends can t go to the movies ?
+Target: - number0 number1
+Generated: - number0 number0
+Result: 0
+
+Example: 29
+Grade: 2
+Source: mrs . hilt bought carnival tickets . the tickets cost 1 for number1 tickets . if mrs . hilt bought number2 tickets how much did she pay ?
+Target: / number2 number1
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 30
+Grade: 4
+Source: a pet store had number0 snakes . they had the snakes in cages with number1 snakes in each cage . how many cages did the pet store have ?
+Target: / number0 number1
+Generated: - number0 number0
+Result: 0
+
+Example: 31
+Grade: 3
+Source: he wanted to make sure that he is protected from the cold evenings in the forest so he decided to build a fireplace made of cement . if he bought number0 lbs of cement and his son brought another number1 lbs how much cement did he have originally if he now has number2 lbs ?
+Target: - number2 + number0 number1
+Generated: - number0 number0 number1
+Result: 0
+
+---------------------------------------
+Batch: 3
+---------------------------------------
+Example: 0
+Grade: 3
+Source: christian and his parents went to mt . falton national park for the weekend . they were welcomed warmly by the rangers who invite volunteers and call them earth keepers . the junior ranger asked christian to help him place number0 seedlings in packets . if every packet needs to contain number1 seeds how many packets do they need ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 1
+Grade: 1
+Source: mrs . hilt has number0 . she spends number1 on a toy truck and number2 on a pencil case . how much money does she have left ?
+Target: - number0 + number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 2
+Grade: 3
+Source: annette and caitlin weigh number0 pounds together . caitlin and sara weigh number1 pounds together . how much more does annette weigh than sara ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 3
+Grade: 3
+Source: last thursday drew had number0 . over the weekend he received some money for cutting the grass . he now has number1 . how much money did he get paid for cutting the grass ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 4
+Grade: 3
+Source: having this kind of collection made jack a fast reader . if he can read number0 books in a day how many books can he read in a year a year number1 days ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 5
+Grade: 3
+Source: angela won a contest . she gets number0 to spend at puzzle palace . she bought many wonderful puzzles . she had number1 left . how much did she spend ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 6
+Grade: 4
+Source: mike has number0 action figures he wants to display . if each shelf in his room can hold number1 figures how many shelves does he need ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 7
+Grade: 3
+Source: for a potluck lunch bianca brought number0 bottles of soda . if someone else had already brought number1 sodas how many were there total ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 8
+Grade: 1
+Source: number0 red apples and number1 green apples are in the basket . how many apples are in the basket ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 9
+Grade: 3
+Source: at the end of the party mona gave away some souvenirs to her number0 closest friends . if each of them received number1 souvenir items how many souvenirs did mona give away ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 10
+Grade: 3
+Source: trevor counted number0 coins in his bank . he counted number1 quarters . the rest are dimes . how many more coints of the total than quarts does trevor have ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 11
+Grade: 3
+Source: they decided to hold the party in their backyard . if they have number0 sets of tables and each set has number1 chairs how many chairs do they have for the guests ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 12
+Grade: 2
+Source: number0 boats are in the lake . each boat has number1 people . how many people are on boats in the lake ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 13
+Grade: 1
+Source: number0 birds are sitting on a branch . number1 flies away . how many birds are left on the branch ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 14
+Grade: 3
+Source: after the party kevin estimated that the total money they spent on food drinks and utensils sums up to number0 . if they spent number1 on food and number2 on utensils and other stuff how much did they spend on drinks ?
+Target: - number0 + number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 15
+Grade: 4
+Source: zoe s school sold number0 dollars in raffle tickets . if each ticket cost number1 dollars how many tickets did they sell ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 16
+Grade: 3
+Source: there are number0 students in mrs . riley s class but she only has number1 pencils . how many more pencils does mrs . riley need ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 17
+Grade: 3
+Source: christian s mother prepared lemonade . every pitcher of lemonade can serve number0 glasses . if she was able to serve number1 glasses of lemonade how many pitchers of lemonade did she prepare ?
+Target: / number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 18
+Grade: 1
+Source: during a sale a shoe store sold number0 pairs of sneakers number1 pairs of sandals and number2 pairs of boots . how many pairs of shoes did the store sell ?
+Target: + + number0 number1 number2
+Generated: - + number0 number1 number2 number2
+Result: 0
+
+Example: 19
+Grade: 2
+Source: there were number0 people in line at lunch when number1 more got in line . how many people were there total in line ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 20
+Grade: 3
+Source: tom read number0 chapters of a book . if each chapter was number1 pages how many pages did he read ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 21
+Grade: 2
+Source: linda has number0 candies . chloe has number1 . how many candies do they have in all ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 22
+Grade: 3
+Source: your class is having a pizza party . you buy number0 pizzas . each pizza has number1 slices . how many slices is that altogether ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 23
+Grade: 3
+Source: ted and fred measured their height . their total height is number0 inches . ted is number1 inches tall . how tall is fred ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 24
+Grade: 1
+Source: number0 birds were sitting on the fence . number1 more birds came to join them . how many birds are sitting on the fence ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 25
+Grade: 3
+Source: the 2 groups will also collect garbage from all the number1 houses in the city . if lizzie s group covered number2 houses while the other group covered number3 how many more houses remain ?
+Target: - number1 + number2 number3
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 26
+Grade: 3
+Source: frankie and max went trick or treating . frankie got number0 pieces of candy . max got number1 pieces of candy . how many more pieces of candy did max get ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 27
+Grade: 5
+Source: there was number0 ml of tea in a pot . anna poured the tea into some cups . if there were number1 ml of tea in each cup how many cups were filled with tea ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 28
+Grade: 3
+Source: after the cleaning the rivers they went on to tidy up the farmlands . if lizzie s group covered number0 square feet of land and the other group covered number1 how many more square feet of land remains to be cleaned if there is total of number2 square feet of land ?
+Target: - number2 + number0 number1
+Generated: - number0 number0 number1
+Result: 0
+
+Example: 29
+Grade: 3
+Source: a lawn care company bought number0 lawnmower blade for number1 each . they also bought a spool of weed eater string for number2 . how much money did they spend on supplies ?
+Target: + * number0 number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 30
+Grade: 3
+Source: another material that he needs is rope . if he already has number0 feet of rope and he needs additional ropes having number1 times the length of what he already have how long should be the additional rope ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 31
+Grade: 3
+Source: ned was helping the cafeteria workers pick up lunch trays but he could only carry number0 trays at a time . if he had to pick up number1 trays from 1 table and number3 trays from another how many trips will he make ?
+Target: / + number3 number1 number0
+Generated: - number0 number0 number1
+Result: 0
+
+---------------------------------------
+Batch: 4
+---------------------------------------
+Example: 0
+Grade: 1
+Source: a waiter had number0 customers . after some left he still had number1 customers . what s the difference between the number of customers before leaving and after leaving ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 1
+Grade: 3
+Source: they also prepared some chips . if he prepared number0 grams of chips and his father prepared number1 grams how much chips should his brother prepare if they are to have number2 grams of chips ?
+Target: - number2 + number0 number1
+Generated: - number0 number0 number1 number2
+Result: 0
+
+Example: 2
+Grade: 1
+Source: jake has number0 fewer balls than audrey . audrey has number1 balls . how many balls does jake have ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 3
+Grade: 3
+Source: paul and vinnie deliver newspapers . paul made number0 in tips . vinnie made number1 more than paul . how much did vinnie make ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 4
+Grade: 3
+Source: alvin is trying to build a small house in the forest so that he has a place to stay whenever he goes hunting . he started by gathering some wood . according to his blueprint he will need number0 pieces of wood . if his friend gave him number1 pieces and his brother gave him number2 pieces how many more wood does he need to gather ?
+Target: - - number0 number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 5
+Grade: 1
+Source: marin has number0 apples and donald has number1 apples . how many apples do marin and donald have together ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 6
+Grade: 1
+Source: sammy has number0 math problems to do for homework . he has already finished number1 of them . how many math problems does sammy have left ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 7
+Grade: 3
+Source: mrs . smith gave number0 strawberries to number1 girls equally . how many strawberries did each girl get ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 8
+Grade: 3
+Source: there are number0 fishbowls . each fishbowl has number1 fish . how many fish are there ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 9
+Grade: 3
+Source: to add support on the house s connections he decided to tie the wood joints with rope . he needs number0 feet of rope . if he has number1 feet of rope with him and at the moment he only needed number2 feet how many feet of rope did his friends give to him ?
+Target: - number0 + number2 number1
+Generated: - number0 number0 number1 number2
+Result: 0
+
+Example: 10
+Grade: 1
+Source: amy had number0 dollars . if she got number1 more dollars for doing chores and number2 more for her birthday how much money does she have now ?
+Target: + + number0 number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 11
+Grade: 2
+Source: hayley had number0 meatballs on her plate . kirsten stole some of her meatballs . now she has number1 meatballs on her plate . how many meatballs did kirsten steal ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 12
+Grade: 4
+Source: rachel had to complete number0 pages of math homework and number1 pages of reading homework . how many pages did she have to complete total ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 13
+Grade: 4
+Source: dave earned number0 . sara earned number1 . how much more money did dave earn than sara ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 14
+Grade: 2
+Source: mrs . hilt has number0 cents . a pencil costs number1 cents . how many pencils can she buy with the money she has ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 15
+Grade: 3
+Source: each bag contains number0 pounds of oranges . how many pounds of oranges are in number1 bags ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 16
+Grade: 1
+Source: a furniture store had number0 chairs . after selling some there was number1 left . how many chairs did they sell ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 17
+Grade: 4
+Source: a school ordered number0 new pencils for the state tests . if they gave each student number1 pencils how many students are in the school ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 18
+Grade: 4
+Source: there is a snail problem in centerville . people work together to get rid number0 snails but number1 of them remain . about how many snails were originally in centerville ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 19
+Grade: 2
+Source: a bee has number0 legs . how many legs do number1 bees have ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 20
+Grade: 3
+Source: a chef used number0 potatoes to make fries for the lunch crowd . later he used another number1 potatoes for the dinner crowd . how many potatoes did he use total ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 21
+Grade: 4
+Source: an industrial machine made number0 shirts . if it made 1 minute to make number2 shirts how many minutes was it working ?
+Target: / number0 number2
+Generated: - number0 number0 number1
+Result: 0
+
+Example: 22
+Grade: 5
+Source: rick and todd have the same number of candy bars . rick ate number0 candy bars . todd gave away number1 of his candy bars . how many more candy bars did rick have than todd then ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 23
+Grade: 4
+Source: a farmer had number0 seeds to plant . he planted the same number of seeds each day and it took him number1 days to plant them all . how many seeds did he plant per day ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 24
+Grade: 4
+Source: there are number0 students in a school . if the school has number1 grades and each grade had the same number of students how many students were in each grade ?
+Target: / number0 number1
+Generated: - number0 number0
+Result: 0
+
+Example: 25
+Grade: 2
+Source: at the arcade dave spent number0 tickets on stuffed tiger . then he had number1 left . how many tickets did dave have to start with ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 26
+Grade: 2
+Source: mrs . sheridan has number0 cats . how many more cats does mrs . sheridan need to have number1 cats ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 27
+Grade: 1
+Source: there were number0 students riding on the school bus . at the first stop number1 students got off of the bus . how many students are left on the bus ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 28
+Grade: 3
+Source: frank had number0 pieces of candy . if he put them into bags with number1 pieces in each bag how many bags would he have ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 29
+Grade: 1
+Source: brian has number0 more plums than paul . paul has number1 plums . how many plums does brian have ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 30
+Grade: 1
+Source: a farmer planted number0 tomato seeds number1 cucumber seeds and number2 pumpkin seeds . how many seeds did he plant all together ?
+Target: + + number0 number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 31
+Grade: 3
+Source: next food item she has to prepare is soup . she needs number0 cups of mushroom soup . if the first team made number1 cups and the third team made number2 cups how any cups should the second team prepare in order to meet the required amount of soup ?
+Target: - number0 + number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+---------------------------------------
+Batch: 5
+---------------------------------------
+Example: 0
+Grade: 2
+Source: kaleb had number0 cherries . after eating some he had number1 left . how many cherries did kaleb eat ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 1
+Grade: 3
+Source: sunday morning was spent for making wood carvings which can be sold as souvenir for tourists . they were placed in shelves that can contain number0 wood carvings at a time . if number1 wood carvings were displayed how many shelves were filled with carvings ?
+Target: / number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 2
+Grade: 1
+Source: millie had number0 bracelets . she lost number1 of them . how many bracelets does millie have left ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 3
+Grade: 1
+Source: mrs . hilt bought a yoyo for number0 cents and a whistle for number1 cents . how much did she spend in all for the 2 toys ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 4
+Grade: 2
+Source: gwen had number0 ds games . after she gave some to her friends she had number1 left . how many games did she give away ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 5
+Grade: 4
+Source: oliver won number0 tickets playing games at the arcade . if he spent number1 tickets buying a water gun how many tickets did he still have ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 6
+Grade: 2
+Source: isabella s hair is number0 inches long . if she gets a haircut and now her hair is number1 inches long how much of isabella s hair got cut off ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 7
+Grade: 3
+Source: the book nook sold number0 computer books last week . the sold number1 more cook books than computer books . how many cook books did the book nook sell ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 8
+Grade: 1
+Source: number0 peaches are in the basket . number1 more peaches are put in the basket . how many peaches are in the basket now ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 9
+Grade: 1
+Source: brian has number0 fewer oranges than marcie . marcie has number1 oranges . how many oranges does brian have ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 10
+Grade: 4
+Source: a chef served 3 different foods for a banquet number1 plates lobster rolls number2 plates of spicy hot noodles and number3 plates of seafood noodles . how many plates of food did the chef make altogether ?
+Target: + + number1 number2 number3
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 11
+Grade: 1
+Source: there were number0 ducks swimming in the pond . number1 ducks flew away . how many ducks are still swimming in the pond ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 12
+Grade: 2
+Source: there were number0 roses in the vase . jessica cut some more roses from her flower garden . there are now number1 roses in the vase . how many roses did she cut ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 13
+Grade: 2
+Source: at the arcade jerry won number0 tickets playing whack a mole and number1 tickets playing skee ball . if he spent number2 of his tickets on a hat how many tickets does jerry have left ?
+Target: - + number0 number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 14
+Grade: 2
+Source: at the arcade dave won number0 tickets . if he spent number1 tickets on a beanie and later won number2 more tickets how many would he have ?
+Target: - number0 + number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 15
+Grade: 4
+Source: a washing machine can wash number0 pounds of clothes per day . if there are number1 pounds of clothes to be washed per day how many washing machines are needed ?
+Target: / number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 16
+Grade: 1
+Source: debby had number0 pieces of candy . after eating some she had number1 pieces . how many pieces did debby eat ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 17
+Grade: 3
+Source: edward spent number0 on a board game and then he bought number1 action figures for number2 each . how much money did he spend on the game and figures ?
+Target: + * number1 number2 number0
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 18
+Grade: 2
+Source: in a school there are number0 girls and number1 boys . how many pupils are there in that school ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 19
+Grade: 3
+Source: lastly andrew tried to compute his expenses for the game night . if he spent number0 for each game they played and they played a total of number1 games how much money did he spend that night ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 20
+Grade: 2
+Source: robert wants to practice goal kicks for soccer . he decides to have number0 kicks before going home from the park . he takes number1 kicks before taking a break to get a drink of water . he then takes another number2 kicks . how many more kicks does he need to make before he goes home ?
+Target: - - number0 number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 21
+Grade: 3
+Source: zoe is on vacation . she has already taken number0 pictures . she has enough film left to take 32 more pictures . zoe took number2 more pictures at the dolphin show . how many pictures has zoe taken altogether ?
+Target: + number0 number2
+Generated: - number0 number0 number1 number2
+Result: 0
+
+Example: 22
+Grade: 2
+Source: roden went to a pet shop . he bought number0 gold fish and number1 blue fish . how many fish did he buy ?
+Target: + number0 number1
+Generated: - number0 number0
+Result: 0
+
+Example: 23
+Grade: 2
+Source: jose has number0 chickens and number1 ducks . how many fowls does he have ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 24
+Grade: 1
+Source: at the fair haley went on number0 rides in the day and number1 at night . how many rides did haley go on total ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 25
+Grade: 3
+Source: tom had number0 and he wanted to buy as many folders as he could . if 1 folder costs number2 how many folders can tom buy ?
+Target: / number0 number2
+Generated: - number0 number0 number1
+Result: 0
+
+Example: 26
+Grade: 3
+Source: brian ran around the school track in number0 seconds . todd ran around it in number1 seconds . how many fewer seconds did it take todd to run around the tracl ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 27
+Grade: 2
+Source: a fast food restaurant had number0 hotdogs . after selling some they had number1 left . how many hotdogs did they sell ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 28
+Grade: 3
+Source: danny collects bottle caps . he found number0 bottle caps at the park . now he has number1 bottle caps in his collection . how many bottle caps did danny have at first ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 29
+Grade: 1
+Source: adam has number0 more apples than jackie . jackie has number1 apples . how many apples does adam have ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 30
+Grade: 2
+Source: jovana filled her bucket with number0 pounds of shells . if a friend comes to add number1 pounds of shells and another friend comes to add number2 pounds of shells how many pounds does she have altogether ?
+Target: + + number0 number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 31
+Grade: 3
+Source: there are number0 students making number1 stars each for the school wall . how many stars will they make all together ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+---------------------------------------
+Batch: 6
+---------------------------------------
+Example: 0
+Grade: 2
+Source: i read number0 pages of my english book yesterday . today i read number1 pages . what is the total number of pages did i read ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 1
+Grade: 3
+Source: there were number0 bales of hay in the barn . keith stacked more bales in the barn today . there are now number1 bales of hay in the barn . how many bales did he store in the barn ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 2
+Grade: 1
+Source: a waiter had number0 customers . after some left he still had number1 customers . how many customers left ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 3
+Grade: 2
+Source: kim has number0 cousins . she wants to give each one number1 pieces of gum . how much gum will she need ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 4
+Grade: 4
+Source: a group of number0 friends were playing video games . later number1 more friends came over . how many people were there total ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 5
+Grade: 1
+Source: some oranges were in the basket . number0 oranges were taken from the basket . now there are number1 oranges . how many oranges were in the basket before some of the oranges were taken ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 6
+Grade: 1
+Source: ellen has number0 more balls than marin . marin has number1 balls . how many balls does ellen have ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 7
+Grade: 2
+Source: cindy has number0 stickers . she uses number1 stickers . she buys number2 more stickers . how many stickers does cindy have now ?
+Target: - number0 + number1 number2
+Generated: - number0 number0 number1 number2
+Result: 0
+
+Example: 8
+Grade: 2
+Source: debby received number0 text messages before noon and another number1 after noon . how many text messages did debby receive total ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 9
+Grade: 2
+Source: the hawks scored number0 touchdowns worth number1 points each . how many points do they have ?
+Target: * number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 10
+Grade: 1
+Source: number0 plums were in the basket . more plums were added to the basket . now there are number1 plums . how many plums were added to the basket ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 11
+Grade: 1
+Source: rachel took number0 dollars from her piggy bank . now she has number1 dollars in her piggy bank . how much money was originally in there ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 12
+Grade: 3
+Source: a trivia team had number0 members total but during a game number1 members didn t show up . if each member that did show up scored number2 points how many points were scored total ?
+Target: * - number0 number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 13
+Grade: 3
+Source: there were number0 book shelves . each book shelf had number1 books . how many books were on the shelves ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 14
+Grade: 4
+Source: jerry had number0 action figures on a shelf in his room . later he added number1 more figures to the shelf . how many action figures were on his shelf total ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 15
+Grade: 3
+Source: he also made some juice from fresh oranges . if he used number0 oranges per glass of juice and he made number1 glasses of juice how many oranges did he use ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 16
+Grade: 3
+Source: the school is planning a field trip . there are number0 students and number1 seats on each school bus . how many buses are needed to take the trip ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 17
+Grade: 1
+Source: david has number0 fewer apples than marin . marin has number1 apples . how many apples does david have ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 18
+Grade: 3
+Source: will went to the state fair and rode the ferris wheel number0 times . if he rode it number1 times during the day how many times did he ride it at night ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 19
+Grade: 3
+Source: there are number0 rose bushes and 37 oak trees currently in the park . park workers will plant more rose bushes today . when the workers are finished there will be number2 rose bushes in the park . how many rose bushes did the workers plant today ?
+Target: - number2 number0
+Generated: - number0 number0 number1 number2
+Result: 0
+
+Example: 20
+Grade: 3
+Source: andrew is having his friends over for game night . so he decided to prepare the snacks and the games . he started by making mini sandwiches . if he has number0 friends coming over and he made number1 sandwiches for each one of them how many sandwiches did he make in total ?
+Target: * number0 number1
+Generated: - number0 number0
+Result: 0
+
+Example: 21
+Grade: 1
+Source: mrs . hilt made 5 rice krispie treats . she used number1 large marshmallows and number2 mini marshmallows . how many marshmallows did she use altogether ?
+Target: + number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 22
+Grade: 2
+Source: jovana had number0 pounds of shells in her bucket . she added some shells and now has number1 pounds of shells . how many pounds did she add ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 23
+Grade: 1
+Source: number0 beavers were working on their home . number1 went for a swim . how many beavers are still working on their home ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 24
+Grade: 3
+Source: the razorback t shirt shop makes number0 dollars off each t shirt sold . during the arkansas and texas tech game they sold number1 t shirts . how much money did they make from selling the t shirts ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 25
+Grade: 1
+Source: mary s mom is getting ready for mary s birthday party . she blew up number0 balloons this morning and number1 balloons this afternoon . how many balloons did she blow up in all ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 26
+Grade: 2
+Source: cade had number0 marbles . he gave number1 to dylan . how many does he have left ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 27
+Grade: 3
+Source: 1 zoo guide spoke to a group of number1 children . another guide spoke to a group of number2 children . there are 22 guides at the zoo . how many children did the zoo guides speak to ?
+Target: + number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 28
+Grade: 2
+Source: lucy went to the grocery store . she bought number0 packs of cookies and number1 packs of noodles . how many packs of groceries did she buy in all ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 29
+Grade: 3
+Source: christian and the junior ranger brought a bag of number0 nails as they visited every station assigned to the junior ranger . if they left exactly number1 nails in every station they visited how many stations did joline and the junior ranger visit ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 30
+Grade: 1
+Source: number0 apples were in the basket . number1 are red and the rest are green . how many apples are green ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 31
+Grade: 3
+Source: christian s father and the senior ranger gathered firewood as they walked towards the lake in the park and brought with them sacks . if every sack can contain around number0 pieces of wood how many sacks were they able to fill if they gathered number1 pieces of wood ?
+Target: / number1 number0
+Generated: - number0 number1
+Result: 0
+
+---------------------------------------
+Batch: 7
+---------------------------------------
+Example: 0
+Grade: 3
+Source: will was drawing super heroes on a sheet of scrap paper . he drew number0 heroes on the front and number1 heroes on the back . how many heroes did he draw total ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 1
+Grade: 3
+Source: finally they had to roam around number0 factories to make sure they are throwing their wastes properly . if their group went to number1 factories and the second went to number2 how many factories remain unchecked ?
+Target: - number0 + number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 2
+Grade: 1
+Source: allan brought number0 balloons and jake brought number1 balloons to the park . how many balloons did allan and jake have in the park ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 3
+Grade: 2
+Source: cindy had number0 pieces of candy . she ate number1 pieces in the morning and number2 more pieces in the afternoon . how many pieces of candy does she have left ?
+Target: - - number0 number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 4
+Grade: 2
+Source: gwen s hair was number0 centimeters long . after a haircut it was number1 centimeters long . how much did she cut off ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 5
+Grade: 3
+Source: he also needed some nails . if he already has number0 nails with him and he found another number1 in his toolshed how many more nails does he need to buy if he needs a total of number2 nails ?
+Target: - number2 + number0 number1
+Generated: - number0 number0 number1 number2
+Result: 0
+
+Example: 6
+Grade: 2
+Source: mrs . hilt bought number0 hot dogs . each hot dog cost number1 cents . how much money did she pay for all of the hot dogs ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 7
+Grade: 1
+Source: number0 balls were in the basket . some of the balls were removed from the basket . now there are number1 balls . how many balls were removed from the basket ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 8
+Grade: 2
+Source: brian has number0 pencils . he gives number1 pencils to a friend . he buys number2 more pencils . how many pencils does brian have now ?
+Target: - number0 + number1 number2
+Generated: - number0 number0 number1 number2
+Result: 0
+
+Example: 9
+Grade: 2
+Source: olivia gave her cat number0 cheese cubes . now olivia has number1 cheese cubes left . how many cheese cubes did olivia have originally ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 10
+Grade: 4
+Source: janet was practicing for a marathon . she practiced for number0 days running number1 miles each day . how many miles did janet run altogether ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 11
+Grade: 3
+Source: kevin and his family just moved to a new neighborhood so they are holding a party to be able to meet their new neighbors . for the party they prepared a few snacks for everyone . if his sister prepared number0 mini cupcakes and his mother prepared number1 how many did his grandmother prepare if they have a total of number2 cupcakes ?
+Target: - number2 + number0 number1
+Generated: - number0 number1 number1
+Result: 0
+
+Example: 12
+Grade: 1
+Source: number0 red plums and number1 green plums are in the basket . how many plums are in the basket ?
+Target: + number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 13
+Grade: 4
+Source: emily owned number0 songs by her favorite artists . later on she bought number1 more songs . how many songs did she have totaled ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 14
+Grade: 4
+Source: an architect was building his 2 story house . on the first floor the house had number1 bedrooms and the second floor had number2 bedrooms . how many bedrooms does the house have totaled ?
+Target: + number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 15
+Grade: 1
+Source: there were number0 kinds of sandwiches on the menu . unfortunately number1 of them had been sold out how many kinds of sandwiches do they actually provide now ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 16
+Grade: 3
+Source: it takes number0 minutes to bake 1 pan of cookies . how long will it take to bake number2 pans of cookies ?
+Target: * number0 number2
+Generated: - number0 number0 number1
+Result: 0
+
+Example: 17
+Grade: 1
+Source: a pet store had number0 kittens . if they got another number1 kittens how many would they have total ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 18
+Grade: 3
+Source: lexie s younger brother helped pick up all the paper clips in lexie s room . he was able to collect number0 paper clips . if he wants to distribute the paper clips in number1 boxes how many paper clips will each box contain ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 19
+Grade: 3
+Source: mikayla has a huge collection of music cds . she gave number0 cds to her friend . now she has number1 cds left . how many cds were in mikayla s collection at first ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 20
+Grade: 3
+Source: janine owns a catering service company . she was hired to cater for the mayor s 50th birthday . for the appetizers she needs to make number1 mini meat pies . she divided her crew into 3 teams . if the first team made number3 and the second made number4 how many pies should the third team make ?
+Target: - number1 + number3 number4
+Generated: - number0 number0 number1
+Result: 0
+
+Example: 21
+Grade: 3
+Source: matthew and billie went apple picking . matthew found number0 big red apples . billie found some as well . together they found number1 apples . how many apples did billie find ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 22
+Grade: 1
+Source: mrs . hilt s favorite first grade classes are baking muffins . mrs . brier s class bakes number0 muffins mrs . macadams s class bakes number1 muffins and mrs . flannery s class bakes number2 muffins . how many muffins does first grade bake in all ?
+Target: + + number0 number1 number2
+Generated: - number0 number0 number1 number2
+Result: 0
+
+Example: 23
+Grade: 1
+Source: a museum had number0 paintings . after they got rid of some they had number1 left . what s the difference between the number of paintings before they got rid of and the left ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 24
+Grade: 2
+Source: winnie completed number0 consecutive repetitions for rope jumping yesterday . today she completed only number1 . how many repetitions did she fell behind ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 25
+Grade: 3
+Source: victor and his friend were buying trick decks from the magic shop for number0 dollars each . how much did they spend if victor bought number1 decks and his friend bought number2 decks ?
+Target: * + number1 number2 number0
+Generated: - number0 number0 number1 number2
+Result: 0
+
+Example: 26
+Grade: 3
+Source: for a birthday party cody bought number0 regular sodas and number1 diet sodas . if his fridge would only hold number2 on each shelf how many shelves would he fill up ?
+Target: / + number0 number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 27
+Grade: 3
+Source: for the walls of the house he would use number0 large planks of wood . if each plank of wood needs number1 pieces of nails to be secured how many nails does john need for the house wall ?
+Target: * number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 28
+Grade: 3
+Source: adam had to wash number0 loads of clothes . by noon he had only washed number1 loads . how many does he still need to wash ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 29
+Grade: 3
+Source: they served a total of number0 adults and number1 children if number2 of all the people they served are male how many are female ?
+Target: - + number0 number1 number2
+Generated: - number0 number0 number1
+Result: 0
+
+Example: 30
+Grade: 1
+Source: jake has number0 fewer peaches than steven . steven has number1 peaches . how many peaches does jake have ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 31
+Grade: 2
+Source: for halloween debby and her sister combined the candy they received . debby had number0 pieces of candy while her sister had number1 . if they ate number2 pieces the first night how many pieces do they have left ?
+Target: - + number0 number1 number2
+Generated: - number0 number0 number1 number2
+Result: 0
+
+---------------------------------------
+Batch: 8
+---------------------------------------
+Example: 0
+Grade: 3
+Source: shiela has started writing a list of gifts that she plans to give to her family and friends this christmas . for her classmates she made colorful paper stars which will be placed in small clear bottles . she was able to prepare number0 paper stars . how many stars will be placed in each bottle if shiela has number1 classmates ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 1
+Grade: 1
+Source: sandra took number0 cups of coffee and marcie took number1 cups of coffee . how many cups of coffee did sandra and marcie take in total ?
+Target: + number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 2
+Grade: 3
+Source: bridget wants to win the giant stuffed panda bear . she needs a total of number0 points to get it . bridget already scored number1 points at the penny pitch booth . she scored number2 more points on her next try . how many more points does bridget need ?
+Target: - - number0 number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 3
+Grade: 1
+Source: mrs . hilt ran number0 miles on monday number1 miles on wednesday and number2 miles on friday . how many total miles did she run that week ?
+Target: + + number0 number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 4
+Grade: 3
+Source: emily was helping her mom pick apples from the tree in their front yard . together they picked number0 totals . if number1 of the apples weren t ripe yet how many good apples did they pick ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 5
+Grade: 1
+Source: mrs . hilt picked up a book that has number0 pages in it . she read number1 of the pages . how many pages did she have left to read ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 6
+Grade: 3
+Source: elizabeth studied number0 minutes for her science test . she studied number1 minutes for her math test . how long did elizabeth study altogether ?
+Target: + number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 7
+Grade: 3
+Source: a company invited number0 people to a luncheon but number1 of them didn t show up . if the tables they had held number2 people each how many tables do they need ?
+Target: / - number0 number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 8
+Grade: 3
+Source: mike found number0 seashells on the beach he gave tom some of his seashells . he has number1 seashell left . how many seashells did he give to tom ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+Example: 9
+Grade: 5
+Source: greg and brad started reading their books at the same time . greg read number0 pages a day . brad read number1 pages a day . how many more pages did brad read than greg ?
+Target: - number1 number0
+Generated: - number0 number1
+Result: 0
+
+Example: 10
+Grade: 3
+Source: for halloween isabel received number0 pieces of candy from neighbors and number1 pieces from her older sister . if she only ate number2 pieces a day how long would the candy last her ?
+Target: / + number0 number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 11
+Grade: 3
+Source: the book store is very busy today . there are number0 children listening to a story . number1 people are shopping for books . number2 people are at the checkout counter . how many people are at the bookstore ?
+Target: + + number0 number1 number2
+Generated: - number0 number0 number1 number2 number2
+Result: 0
+
+Example: 12
+Grade: 3
+Source: lexie has a lot of art materials . she needs to organize all these materials into containers . she counted her crayons and found out that she has number0 crayons which she will place in crayon boxes . every crayon box can contain number1 crayons . how many crayon boxes does she need ?
+Target: / number0 number1
+Generated: - number0 number1
+Result: 0
+
+Example: 13
+Grade: 2
+Source: isha s pencil is number0 inches long . if she sharpens it now her pencil is number1 inches long . how much did she sharpen off of her pencil ?
+Target: - number0 number1
+Generated: - number0 number1
+Result: 1
+
+---------------------------------------
