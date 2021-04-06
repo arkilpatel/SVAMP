@@ -96,29 +96,29 @@ We work with the following datasets:
   - `Data Size:` 1000
   - Complete challenge set to be used for evaluation.
 
-A description of the individual data files in the `SVAMP\data` directory is given below:
+A description of the individual data files in the `SVAMP/data` directory is given below:
 
-- `SVAMP\data\cv_asdiv-a`
+- `SVAMP/data/cv_asdiv-a`
   - 5-fold Cross Validation splits of ASDiv-A dataset.
 
-- `SVAMP\data\cv_asdiv-a_without_questions`
+- `SVAMP/data/cv_asdiv-a_without_questions`
   - 5-fold Cross Validation splits of ASDiv-A dataset with questions removed in the test sets.
 
-- `SVAMP\data\cv_mawps`
+- `SVAMP/data/cv_mawps`
   - 5-fold Cross Validation splits of MAWPS dataset.
 
-- `SVAMP\data\cv_mawps_without_questions`
+- `SVAMP/data/cv_mawps_without_questions`
   - 5-fold Cross Validation splits of MAWPS dataset with questions removed in the test sets.
 
-- `SVAMP\data\mawps-asdiv-a_svamp`
+- `SVAMP/data/mawps-asdiv-a_svamp`
   - Train set: Combination of full MAWPS and ASDiv-A. Size: 2373 + 1218.
   - Test set: SVAMP. Size: 1000.
 
-- `SVAMP\data\mawps-asdiv-a_svamp_without_questions`
+- `SVAMP/data/mawps-asdiv-a_svamp_without_questions`
   - Train set: Combination of full MAWPS and ASDiv-A. Size: 2373 + 1218
   - Test set: SVAMP with questions removed from the MWPs. Size: 1000.
 
-- `SVAMP\data\cv_svamp_augmented`
+- `SVAMP/data/cv_svamp_augmented`
   - 5-fold Cross Validation splits of combined MAWPS, ASDiv-A and SVAMP. In each fold, the test set consists of problems from only SVAMP while the train set consists of problems from the rest of SVAMP and complete MAWPS and ASDiv-A.
 
 #### Usage:
