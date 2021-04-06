@@ -73,9 +73,9 @@ The current repository includes 5 implementations of Models:
   - Basic Transformer Network.
 - GTS at `SVAMP/code/gts`
   - RNN Encoder with Tree-based Decoder ([Original Implementation](https://github.com/ShichaoSun/math_seq2tree)).
-- Graph2Tree at `graph2tree`
+- Graph2Tree at `SVAMP/code/graph2tree`
   - Graph-based Encoder with Tree-based Decoder ([Original Implementation](https://github.com/2003pro/Graph2Tree)).
-- Constrained Model at `constrained`
+- Constrained Model at `SVAMP/code/constrained`
   - Constrained model as described in the paper. Feed-Forward Network maps input embeddings to hidden representations and LSTM Decoder with attention generates the equation.
 
 #### Datasets
