@@ -17,7 +17,7 @@ The task of solving Math Word Problems (MWPs) has received significant research 
   <img align="center"  src="./images/Table1.png" alt="..." width="350">
 </h2>
 <p style="text-align: justify;">
-In this work, we show deficiencies in two benchmark datasets - <a href="https://github.com/chaochun/nlu-asdiv-dataset">ASDiv-A</a> and <a href="https://github.com/sroy9/mawps">MAWPS</a>. We first show that existing models achieve reasonably high accuracies on these datasets even after removing the "question" part of the MWP at test time. We further show that a simple model without any word-order information can also solve a majority of MWPs in these datasets. These experiments concretely show that existing models rely on shallow heuristics in benchmark MWP datasets for achieving high performance.
+In this work, we show deficiencies in two benchmark datasets - <a href="https://github.com/chaochun/nlu-asdiv-dataset">ASDiv-A</a> and <a href="https://github.com/sroy9/mawps">MAWPS</a>. We first show that existing models achieve reasonably high accuracies on these datasets even after removing the "question" part of the MWP at test time. We further show that a simple model without any word-order information can also solve a majority of MWPs in these datasets. Our experiments indicate that existing models rely on shallow heuristics in benchmark MWP datasets for achieving high performance.
 </p>
 
 <p style="text-align: justify;">
@@ -84,7 +84,7 @@ We work with the following datasets:
 
 - `mawps`
   - [Paper](https://www.aclweb.org/anthology/N16-1136.pdf) and [Github](https://github.com/sroy9/mawps).
-  - `Data Size:` 2373 MWPs.
+  - `Data Size:` 2373 
   - Evaluated by Cross-Validation over 5 splits.
   
 - `asdiv-a`
@@ -93,6 +93,7 @@ We work with the following datasets:
   - Evaluated by Cross-Validation over 5 splits.
   
 - `svamp`
+  - `SVAMP/SVAMP.json`  
   - `Data Size:` 1000
   - Complete challenge set to be used for evaluation.
 
