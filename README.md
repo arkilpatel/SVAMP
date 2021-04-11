@@ -61,7 +61,7 @@ for eg, at `SVAMP/code/graph2tree:`
 $ sh setup.sh
 ```
 
-Then transfer all the data folders to the data subdirectory of that model. For example, copy the MAWPS data directory i.e. `mawps_cv` from `SVAMP/data` to `SVAMP/code/graph2tree/data/`.
+Then transfer all the data folders to the data subdirectory of that model. For example, copy the MAWPS data directory i.e. `cv_mawps` from `SVAMP/data` to `SVAMP/code/graph2tree/data/`.
 
 #### Models
 
