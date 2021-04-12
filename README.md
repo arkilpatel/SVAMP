@@ -84,12 +84,12 @@ We work with the following datasets:
 
 - `mawps`
   - [Paper](https://www.aclweb.org/anthology/N16-1136.pdf) and [Github](https://github.com/sroy9/mawps).
-  - `Data Size:` 2373 
+  - `Data Size:` 1921
   - Evaluated by Cross-Validation over 5 splits.
   
 - `asdiv-a`
   - [Paper](https://www.aclweb.org/anthology/2020.acl-main.92.pdf) and [Github](https://github.com/chaochun/nlu-asdiv-dataset).
-  - `Data Size:` 1218
+  - `Data Size:` 1217
   - Evaluated by Cross-Validation over 5 splits.
   
 - `svamp`
