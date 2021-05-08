@@ -111,7 +111,7 @@ def build_parser():
 
 	parser.add_argument('-show_train_acc', dest='show_train_acc', action='store_true', help='Calculate the train accuracy')
 	parser.add_argument('-no-show_train_acc', dest='show_train_acc', action='store_false', help='Don\'t calculate the train accuracy')
-	parser.set_defaults(show_train_acc=False)
+	parser.set_defaults(show_train_acc=True)
 
 	parser.add_argument('-full_cv', dest='full_cv', action='store_true', help='5-fold CV')
 	parser.add_argument('-no-full_cv', dest='full_cv', action='store_false', help='No 5-fold CV')
