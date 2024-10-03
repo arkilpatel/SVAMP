@@ -7249,7 +7249,7 @@
     },
     {
         "ID": "chal-907",
-        "Body": "An industrial machine can make 6 shirts a minute. It worked for 12 minutes yesterday and for 14 shirts today.",
+        "Body": "An industrial machine can make 6 shirts a minute. It worked for 12 minutes yesterday and for 14 minutes today.",
         "Question": "How many shirts did machine make altogether?",
         "Equation": "( 6.0 * ( 12.0 + 14.0 ) )",
         "Answer": 156.0,
