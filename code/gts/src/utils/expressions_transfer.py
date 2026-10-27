@@ -204,7 +204,7 @@ def compute_prefix_expression(pre_fix):
         elif p == "^" and len(st) > 1:
             a = st.pop()
             b = st.pop()
-            if float(eval(b)) != 2.0 or float(eval(b)) != 3.0:
+            if float(b) != 2.0 and float(b) != 3.0:
                 return None
             st.append(a ** b)
         else:
